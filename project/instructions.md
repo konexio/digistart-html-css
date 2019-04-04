@@ -1,0 +1,83 @@
+﻿// INSTRUCTUIONS
+
+// nouveau fichier html
+// structure de base
+// associé à un fichier style.css dans le répertoire css
+
+// structure du cv
+
+// une nav avec :
+	le nom+prénom en titre h2
+	et 1 liste de 3 liens pour accéder à accueil/experience/education
+
+// un header avec 
+	1 DIV contenant :
+		1 div avec le nom prenom en titre h1 et la profession en h2
+		1 div contenant la photo de portrait
+	une photo 
+
+// 4 sections
+	section 1 - présentation 
+		1 div contenant
+			titre h3
+			1 liste des qualités / traits de caractère
+	section 2 - expériences professionnelles 
+		1 div contenant
+			1 titre h3
+			1 div par année d'expérience
+			cette div contient :
+				1 balise <aside> avec l'année ou la période
+				1 balise h4 avec le poste occupé
+				1 liste des missions accomplies ou projets 
+			pour chaque expérience
+				titre le job
+				et en <aside> (sur le coté) l'année (ou période)
+				et une liste des compétences utilisées
+			
+	section 3 - etudes ou education
+		1 div contenant
+		1 balise h3 'formation'
+		1 liste des diplomes/formation avec l'année en <aside> (sur le coté)
+
+	section 4 - passions
+		passions en titre		
+		1 ou plusieurs paragraphe de texte pour chacune des passions
+
+
+	
+// 1 footer -  links
+	dans le footer 2 div qui seront l'une à coté de l'autre : une à gauche l'autre à droite
+	dans chaque div 1 liste : 
+	- d'un coté les liens de type réseaux sociaux (FB, twitter, etc..)
+	- de l'autre les liens vers les sites de votre choix (konexio, écoles, etc..)
+	
+	
+/// style général
+	sur l'ensemble de la page on applique une marge exterieure de 0
+	les titres des 4 sections seront alignés au centre
+	il y a donc 4 sections + 1 nav+ 1 header+  footer.
+		alternativement ces 7 parties seront 
+			soit en fond blanc+ couleur du texte en #0475BA
+			soit en fond couleur konexio #0475BA + couleur du texte en blanc
+	sauf la nav toutes ces partie auront une marge intérieure de 40px
+	
+	par défaut les liens seront en blanc
+			
+// style de la barre de navigation
+	hauteur 70px
+	titre : marge 0, calé à gauche, marge intérieure de 20px
+	liste de nav : liste sans styele(pas de puce), calé à gauche, les liens seront espacés de 24px chacun
+	
+// style header
+	textes alignés au centre
+	titre métier en couleur konexio
+	image de largeur 150px, arrondie et avec un box-shadow: 3px 3px 6px #AAA;
+	
+// style experience et formation	
+	leurs listes sont sans marge et sans puce
+	les dates sont calées à droite
+	
+// style du footer	
+	les 2 listes sont  sans style et sans marge. elles devront garder un espace de 20px avec le bas de la page
+
+
