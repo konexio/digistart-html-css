@@ -2,37 +2,37 @@
 
 Pour le cours utiliser les slides : https://drive.google.com/open?id=1s_0wtqYDpPBJ67XV24OKxtWV3QfEBQ10vpElF-1905o
 
-Le plan du COURS 1 est le suivant - voir le déroulé des slides
+Le plan du COURS 1 est le suivant - voir le dÃ©roulÃ© des slides
 
--Présentation synthétique de la session de formation.
--Faire un tour de table
+- PrÃ©sentation synthÃ©tique de la session de formation.
+- Faire un tour de table
 
--Objectifs du cours sur 8 séances de 2 heures
-	.2 consacrées au HTML
-	.2 HTML + CCC
-	.Réalisation d'un CV en HTML + CSS
+- Objectifs du cours sur 8 sÃ©ances de 2 heures
+	- 2 consacrÃ©es au HTML
+	- 2 HTML + CCC
+	- RÃ©alisation d'un CV en HTML + CSS
 
--Aspects logistiques liés à la salle - ponctualité - prévenir en cas d'absence prévue
+- Aspects logistiques liÃ©s Ã  la salle - ponctualitÃ© - prÃ©venir en cas d'absence prÃ©vue
 
--Premiers éléments de cours sur le HTML : en s'appuyant sur des exemples de code source
+- Premiers Ã©lÃ©ments de cours sur le HTML : en s'appuyant sur des exemples de code source
 
-Arrivé à la slide 24 :
-- vous pouvez leur faire télécharge le repo github à ce moment là (voir explications données en slide 38)
-- vous pouvez faire en live coding l'exercice proposé avant de leur faire faire
+ArrivÃ© Ã  la slide 24 :
+- vous pouvez leur faire tÃ©lÃ©charge le repo github Ã  ce moment lÃ  (voir explications donnÃ©es en slide 38)
+- vous pouvez faire en live coding l'exercice proposÃ© avant de leur faire faire
 
-Arrivé à la slide slide 38 :
+ArrivÃ© Ã  la slide slide 38 :
 
 Faire faire aux apprenants :
-- s'il n'existe pas création d'un dossier Konexio sur le bureau
-- dans ce dossier création d'un dossier au nom de l'apprenant
-- aller sur le github : https://github.com/konexio/digistart-html
+- s'il n'existe pas crÃ©ation d'un dossier Konexio sur le bureau
+- dans ce dossier crÃ©ation d'un dossier au nom de l'apprenant
+- aller sur le github : [https://github.com/konexio/digistart-html](https://github.com/konexio/digistart-html)
 - bouton clone or download + download zip
-- extraire le zip téléchargé dans le répertoire créé précédemment
+- extraire le zip tÃ©lÃ©chargÃ© dans le rÃ©pertoire crÃ©Ã© prÃ©cÃ©demment
 
-Pour les premiers pas de code, les faire travailler dans le répertoire cours1
+Pour les premiers pas de code, les faire travailler dans le rÃ©pertoire cours1
 
-En fin de séance s'il reste du temps, présenter les balises de la structure HTML :
-<!DOCTYPE html>	<html>	<head>
-Les faire répéter le principe d'écriture des balises : chevron ouvrant + nom de la balise + chevron fermant
-Présenter le principe de l'indentation pour la lecture du code
+En fin de sÃ©ance s'il reste du temps: 
+- PrÃ©senter les balises de la structure HTML : `<!DOCTYPE html>` `<html>` `<head>`
+- Les faire rÃ©pÃ©ter le principe d'Ã©criture des balises : chevron ouvrant + nom de la balise + chevron fermant
+- PrÃ©senter le principe de l'indentation pour la lecture du code
 
