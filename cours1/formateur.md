@@ -2,7 +2,7 @@
 
 Pour le cours utiliser les slides : https://drive.google.com/open?id=1s_0wtqYDpPBJ67XV24OKxtWV3QfEBQ10vpElF-1905o
 
-Le plan du COURS 1 est le suivant - voir le déroulé des slides
+Plan du cours :
 
 - Présentation synthétique de la session de formation.
 - Faire un tour de table
@@ -29,7 +29,7 @@ Faire faire aux apprenants :
 - bouton clone or download + download zip
 - extraire le zip téléchargé dans le répertoire créé précédemment
 
-Pour les premiers pas de code, les faire travailler dans le répertoire `cours1
+Pour les premiers pas de code, les faire travailler dans le répertoire `cours1`
 
 En fin de séance s'il reste du temps: 
 - Présenter les balises de la structure HTML : `<!DOCTYPE html>` `<html>` `<head>`

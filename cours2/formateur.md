@@ -1,6 +1,6 @@
 Pour le cours utiliser les slides : [https://drive.google.com/open?id=1EMrKHlACpB7EeuQCpberrW5Xq1Wd06jkXYGxsbL2YRA](https://drive.google.com/open?id=1EMrKHlACpB7EeuQCpberrW5Xq1Wd06jkXYGxsbL2YRA)
 
-Le plan du COURS 2 est le suivant 
+Plan du cours :
 
 - Faire un tour de table avec ce qui a été retenu au dernier cours
 - Slides partie 1 : rappel de l'HTML et de la structure d'une balise

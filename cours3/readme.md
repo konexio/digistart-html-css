@@ -1,9 +1,9 @@
 [Instructions pour les professeurs](./formateur.md)
 
-# Préparation
+# PrÃ©paration
 
-- Ouvrir votre éditeur de texte `VSCode`
-- Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
+- Ouvrir votre Ã©diteur de texte `VSCode`
+- Dans la barre des tÃ¢ches utilisez `Fichier > Ouvrir un dossier`
 - cliquer sur le dossier `cours3` puis cliquer sur `Ouvrir`
 
 
