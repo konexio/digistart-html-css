@@ -1,3 +1,5 @@
+[Instructions pour les professeurs](./formateur.md)
+
 # Préparation
 
 - Ouvrir votre éditeur de texte `VSCode`
