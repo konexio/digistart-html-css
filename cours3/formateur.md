@@ -3,12 +3,17 @@
 Pour le cours utiliser les slides : https://drive.google.com/open?id=1dg38FJXCl1ziTAqSmZfFF7qrLgn93YQkcbgoRoBHC80
 
 
-Aprés la partie présentation des slides (slide 38) :
+Plan du cours : 
+
+- Faire un tour de table avec ce qui a Ã©tÃ© retenu au dernier cours
+- Rappel sur la structure de l'HTML
+- PrÃ©sentation du CSS
+- PremiÃ¨res lignes de code CSS
 
 Faire faire aux apprenants :
-- s'il n'existe pas création d'un dossier Konexio sur le bureau
-- dans ce dossier création d'un dossier au nom de l'apprenant
+- s'il n'existe pas crÃ©ation d'un dossier Konexio sur le bureau
+- dans ce dossier crÃ©ation d'un dossier au nom de l'apprenant
 - aller sur le github : https://github.com/konexio/digistart-html
 - bouton clone or download + download zip
-- extraire le zip téléchargé dans le répertoire créé précédemment
+- extraire le zip tÃ©lÃ©chargÃ© dans le rÃ©pertoire crÃ©Ã© prÃ©cÃ©demment
 
