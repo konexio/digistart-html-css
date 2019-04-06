@@ -29,7 +29,7 @@ Faire faire aux apprenants :
 - bouton clone or download + download zip
 - extraire le zip téléchargé dans le répertoire créé précédemment
 
-Pour les premiers pas de code, les faire travailler dans le répertoire cours1
+Pour les premiers pas de code, les faire travailler dans le répertoire `cours1
 
 En fin de séance s'il reste du temps: 
 - Présenter les balises de la structure HTML : `<!DOCTYPE html>` `<html>` `<head>`
