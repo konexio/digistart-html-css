@@ -6,10 +6,11 @@ Plan du cours :
 
 - Présentation synthétique de la session de formation.
 - Faire un tour de table
+- Montrer le résultat du projet final qu'ils feront (les images sont en bas de cette pages)
 
 - Objectifs du cours sur 8 séances de 2 heures
 	- 2 consacrées au HTML
-	- 2 HTML + CCC
+	- 2 HTML + CSS
 	- Réalisation d'un CV en HTML + CSS
 
 - Aspects logistiques liés à la salle - ponctualité - prévenir en cas d'absence prévue
@@ -36,3 +37,13 @@ En fin de séance s'il reste du temps:
 - Les faire répéter le principe d'écriture des balises : chevron ouvrant + nom de la balise + chevron fermant
 - Présenter le principe de l'indentation pour la lecture du code
 
+
+## Montrer CV Final
+
+![CV Camille Desktop](../project/assets/cv.png)
+
+![CV Camille Mobile](../project/assets/cv-responsive.png)
+
+![CV Adams Desktop](../project/assets/cv-adams.png)
+
+![CV Adams Mobile](../project/assets/cv-adams-responsive.png)
