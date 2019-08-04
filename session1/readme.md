@@ -4,6 +4,10 @@
 
 [Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1s_0wtqYDpPBJ67XV24OKxtWV3QfEBQ10vpElF-1905o/edit?usp=sharing)
 
+## Fichiers à modifier pour l'exercice
+
+- `index.html`
+
 ## Instructions
 
 - Ouvrir le fichier `index.html`
