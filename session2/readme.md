@@ -34,3 +34,7 @@ Ensuite
 
 <!-- TODO: Modifier l'élément p ci-dessus pour souligner le mot World -->
 ```
+
+## Résultat attendu
+
+![Résultat de l'exercice](./resultat.png)
