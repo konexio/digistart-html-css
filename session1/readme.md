@@ -21,3 +21,7 @@ Exemple :
 <!-- TODO: Écrire une balise <p> avec le contenu suivant : Hello World -->
 <p>Hello World</p>
 ```
+
+## Résultat attendu
+
+![](./resultat.png)
