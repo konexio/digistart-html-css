@@ -1,66 +1,85 @@
-[Instructions pour les professeurs](./formateur.md)
+# Session 3 : Introduction au CSS
 
-# Préparation
+## Cours
 
-- Ouvrir votre éditeur de texte `VSCode`
-- Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
-- cliquer sur le dossier `cours3` puis cliquer sur `Ouvrir`
+[Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1dg38FJXCl1ziTAqSmZfFF7qrLgn93YQkcbgoRoBHC80/edit?usp=sharing)
 
-- Ouvrir le fichier HTML et suivre les instructions
-- N'oubliez pas de vérifier régulièrement le résultat sur votre navigateur.
+## Documentation
 
-## Exercice 1
+[Cliquer ici pour consulter la documentation CSS sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference#Index_des_mots-cl%C3%A9s)
 
-Dans la balise `<head>` insérer la balise permettant de relier ce fichier HTML à un fichier style.css
+## Exercice 1 : Ajouter du CSS au HTML
 
-Puis créer le fichier *style.css*
+- Créer un nouveau fichier nommé `style.css` dans le dossier `session3`.
+- Dans l'élément `<head>` du fichier `index.html`, insérer une balise permettant de lier ce document HTML au nouveau fichier `style.css`.
 
-## Exercice 2
+Ajoutez le code ci-dessous dans `style.css` pour vérifier que tout fonctionne bien. Le texte de la page deviendra rouge après le rechargement du navigateur web.
 
-Dans le fichier *style.css* :
+**Effacez ce code avant de passer à la suite.**
 
-- ajouter la règle qui va mettre un fond gris (GREY) pour tous les éléments `<div>`
-- ajouter la règle qui va mettre la couleur des ancres (balise `<a>`) en blanc
-- ajouter la règle qui va mettre une bordure noire de 1px aux éléments `<img />` (images)
+```css
+* {
+  color: red;
+}
+```
 
-Vérifier le résultat !
+### Résultat attendu pour l'exercice 1
 
-## Exercice 3
+**Rappel : Effacez ce code CSS avant de passer à la suite.**
 
-Dans le fichier *style.css* :
+![Résultat de l'exercice 1](./resultat1.png)
 
-- ajouter une règle pour le sélecteur de type CLASS appelé `centre` et qui aura une propriété pour centrer les titres `<h1>`
+## Exercice 2 : Les sélecteurs de type
 
-Dans le fichier *index.html* :
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
 
-- ajouter un attribut `class` aux balises `<h1>` avec la valeur `centre`
+Dans le fichier `style.css` :
 
-Vérifier le résultat !
+- Écrire une règle pour appliquer un fond gris (valeur `grey`) pour tous les éléments `<div>` grâce à la propriété `background-color`.
+- Écrire une règle pour changer la couleur des éléments `<p>` en rouge (valeur `red`).
+- Écrire une règle pour ajouter une bordure noire de 4 pixels aux éléments `<img>` grâce à la propriété CSS `border`.
 
-## Exercice 4
+### Résultat attendu pour l'exercice 2
 
-Dans le fichier *style.css* :
-- créer un selecteur CLASS `contenu` pour avoir
-  - une couleur de fond noir
-  - avec une police de couleur blanche
+![Résultat de l'exercice 2](./resultat2.png)
 
-Dans le fichier *index.html* :
+## Exercice 3 : Les sélecteurs de classe
 
-- ajouter un attribut class à la div de la première section
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
 
-Vérifier le résultat !
+Dans le fichier `style.css` :
 
-## Exercice 5
+- Écrire une règle pour centrer les éléments ayant la classe `contenu-mixte` (attribut HTML `class="contenu-mixte"`) avec la propriété `text-align`.
+- Écrire une règle pour utiliser la police de caractères `Arial` (avec la propriété `font-family`) sur les éléments ayant la classe `contenu-texte`, puis une autre pour y appliquer une taille d'écriture de 14 pixels (avec la propriété `font-size`).
 
-Dans le fichier *index.html* : 
+### Résultat attendu pour l'exercice 3
 
-- ajouter un selecteur ID de valeur `montagne` à la deuxième section 
+![Résultat de l'exercice 3](./resultat3.png)
 
-Dans le fichier *style.css* :
+## Exercice 4 : Les sélecteurs d'ID
 
-- créer un sélecteur qui s'applique à toutes les balises `<h1>` dans la section d'ID `montagne` pour que la balise `<h1>` de cette section utilise une `font-size` à 20px
-- créer un sélecteur qui s'applique à toutes les balises `<p>` dans la section d'ID `montagne` pour que
-  - le texte de cette section soit aligné à gauche et,
-  - de couleur de police blanche
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
 
-Vérifier le résultat !
+Dans le fichier `style.css` :
+
+- Écrire une règle pour appliquer la couleur bleue (valeur `blue`) à l'élément ayant l'ID `section-1`.
+- Écrire une règle pour appliquer la couleur orange (valeur `orange`) à l'élément ayant l'ID `section-2`.
+- Écrire une règle pour appliquer la couleur pourpre (valeur `purple`) à l'élément ayant l'ID `section-3`.
+
+### Résultat attendu pour l'exercice 4
+
+![Résultat de l'exercice 4](./resultat4.png)
+
+## Exercice 5 : Les sélecteurs descendants
+
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
+
+Dans le fichier `style.css` :
+
+- Écrire une règle pour aligner au centre les éléments `<p>` enfants des éléments ayant une classe `contenu-mixte` grâce à la propriété `text-align`.
+- Écrire une règle pour justifier le texte des éléments `<p>` enfants de l'élément ayant l'ID `section-3`, toujours avec la propriété `text-align`.
+- Écrire deux autres règles pour les mêmes éléments (`<p>` enfants de l'ID `section-3`) pour que leur texte soit écrit en noir et qu'ils n'aient plus de couleur de fond.
+
+### Résultat attendu pour l'exercice 5
+
+![Résultat de l'exercice 5](./resultat5.png)
