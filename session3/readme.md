@@ -50,7 +50,7 @@ Dans le fichier `style.css` :
 Dans le fichier `style.css` :
 
 - Écrire une règle pour centrer les éléments ayant la classe `contenu-mixte` (attribut HTML `class="contenu-mixte"`) avec la propriété `text-align`.
-- Écrire une règle pour utiliser la police de caractères `Arial` (avec la propriété `font-family`) sur les éléments ayant la classe `contenu-texte`, puis une autre pour y appliquer une taille d'écriture de 14 pixels (avec la propriété `font-size`).
+- Écrire une règle pour utiliser la police de caractères `Arial` (avec la propriété `font-family`) sur les éléments ayant la classe `contenu-texte`, puis une autre pour y appliquer une taille d'écriture de 18 pixels (avec la propriété `font-size`).
 
 ### Résultat attendu pour l'exercice 3
 
@@ -64,7 +64,7 @@ Dans le fichier `style.css` :
 
 - Écrire une règle pour appliquer la couleur bleue (valeur `blue`) à l'élément ayant l'ID `section-1`.
 - Écrire une règle pour appliquer la couleur orange (valeur `orange`) à l'élément ayant l'ID `section-2`.
-- Écrire une règle pour appliquer la couleur pourpre (valeur `purple`) à l'élément ayant l'ID `section-3`.
+- Écrire une règle pour appliquer la couleur violet (valeur `purple`) à l'élément ayant l'ID `section-3`.
 
 ### Résultat attendu pour l'exercice 4
 
@@ -76,9 +76,9 @@ Dans le fichier `style.css` :
 
 Dans le fichier `style.css` :
 
-- Écrire une règle pour aligner au centre les éléments `<p>` enfants des éléments ayant une classe `contenu-mixte` grâce à la propriété `text-align`.
+- Écrire une règle pour aligner à droite les éléments `<p>` enfants des éléments ayant une classe `contenu-mixte` grâce à la propriété `text-align`.
 - Écrire une règle pour justifier le texte des éléments `<p>` enfants de l'élément ayant l'ID `section-3`, toujours avec la propriété `text-align`.
-- Écrire deux autres règles pour les mêmes éléments (`<p>` enfants de l'ID `section-3`) pour que leur texte soit écrit en noir et qu'ils n'aient plus de couleur de fond.
+- Écrire deux autres règles pour les mêmes éléments (`<p>` enfants de l'ID `section-3`) pour que leur texte soit écrit en noir et qu'ils aient une couleur de fond en blanc.
 
 ### Résultat attendu pour l'exercice 5
 
