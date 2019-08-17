@@ -27,7 +27,7 @@ Ajoutez le code ci-dessous dans `style.css` pour vérifier que tout fonctionne b
 
 **Rappel : Effacez ce code CSS avant de passer à la suite.**
 
-![Résultat de l'exercice 1](./resultat1.png)
+![Résultat de l'exercice 1](./resultats/resultat1.png)
 
 ## Exercice 2 : Les sélecteurs de type
 
@@ -41,7 +41,7 @@ Dans le fichier `style.css` :
 
 ### Résultat attendu pour l'exercice 2
 
-![Résultat de l'exercice 2](./resultat2.png)
+![Résultat de l'exercice 2](./resultats/resultat2.png)
 
 ## Exercice 3 : Les sélecteurs de classe
 
@@ -54,7 +54,7 @@ Dans le fichier `style.css` :
 
 ### Résultat attendu pour l'exercice 3
 
-![Résultat de l'exercice 3](./resultat3.png)
+![Résultat de l'exercice 3](./resultats/resultat3.png)
 
 ## Exercice 4 : Les sélecteurs d'ID
 
@@ -68,7 +68,7 @@ Dans le fichier `style.css` :
 
 ### Résultat attendu pour l'exercice 4
 
-![Résultat de l'exercice 4](./resultat4.png)
+![Résultat de l'exercice 4](./resultats/resultat4.png)
 
 ## Exercice 5 : Les sélecteurs descendants
 
@@ -82,4 +82,4 @@ Dans le fichier `style.css` :
 
 ### Résultat attendu pour l'exercice 5
 
-![Résultat de l'exercice 5](./resultat5.png)
+![Résultat de l'exercice 5](./resultats/resultat5.png)
