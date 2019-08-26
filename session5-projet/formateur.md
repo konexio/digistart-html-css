@@ -1,35 +1,37 @@
-# Avant le cours
+# Suggestion de plans à suivre pendant le projet
 
-- Télécharger et regarder la [solution](https://drive.google.com/open?id=1dEUiL_hIWZihOoXLjL_OCDmzWSYPHb7A)
+## Solution
 
-# Plan du cours 5
+La solution est disponible [ici](https://drive.google.com/open?id=1dEUiL_hIWZihOoXLjL_OCDmzWSYPHb7A).
 
-- Faire un tour de table avec ce qui a été retenu au dernier cours
-- Faire un rappel des bases d'HTML et CSS qui sont utilisés dans la solution
-- Présenter le CV résultat (image en bas de cette page)
-	- Expliquer la structure de la page et des différentes sections
+## Plan du cours 5
 
-# Plan du cours 6
+- Faire un tour de table avec ce qui a été retenu au dernier cours.
+- Faire un rappel des bases de HTML et CSS qui sont utilisées dans la solution.
+- Présenter le CV résultat (images en bas de cette page).
+- Expliquer la structure de la page et des différentes sections.
 
-- Retour sur l'exercice et les difficultés rencontrées
-- Coder en live à partir d'une page blanche pour reprendre tous les points difficiles
+## Plan du cours 6
 
-# Plan du cours 7
+- Retour sur l'exercice et les difficultés rencontrées.
+- Coder en live pour reprendre tous les points difficiles.
 
-- Retour sur l'exercice et les difficultés rencontrées
-- Coder en live et montrer comment modifier les couleurs pour chaque personne en utilisant différents thèmes de couleurs
-- Publier sur Github
+## Plan du cours 7
 
-# Plan du cours 8
+- Retour sur l'exercice et les difficultés rencontrées.
+- Coder en live et montrer comment modifier les couleurs pour chaque personne en utilisant différents thèmes de couleurs.
+- Publier la page sur GitHub.
 
-- Démonstration des CV réalisés
+## Plan du cours 8
 
-## Montrer CV Final
+- Démonstration des CV réalisés.
 
-![CV Camille Desktop](../project/assets/cv.png)
+## Résultats attendus
 
-![CV Camille Mobile](../project/assets/cv-responsive.png)
+![CV Camille Desktop](./assets/cv.png)
 
-![CV Adams Desktop](../project/assets/cv-adams.png)
+![CV Camille Mobile](./assets/cv-responsive.png)
 
-![CV Adams Mobile](../project/assets/cv-adams-responsive.png)
+![CV Adams Desktop](./assets/cv-adams.png)
+
+![CV Adams Mobile](./assets/cv-adams-responsive.png)
