@@ -1,38 +1,24 @@
-﻿[Instructions pour les professeurs](./formateur.md)
+﻿# Sessions 5 à 8 : Écrire un CV en HTML et CSS pour le publier en ligne
 
-# Préparation
+## Attention
 
-- Aller sur ce lien [https://github.com/konexio/digistart-html](https://github.com/konexio/digistart-html), cliquer sur le bouton vert `Cloner ou télécharger` puis cliquer sur le bouton `ZIP`
-- Enregistrer le fichier dans le dossier `digistart` à l'intérieur du dossier `Konexio` sur le Bureau
-- Décompresser le fichier
-- Ouvrir votre éditeur de texte `VSCode`
+**Il faut suivre les instructions telles quelles. Une fois le CV fini, vous pourrez changer le CV avec votre texte et votre photo.**
 
-  - Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
-  - Rechercher le dossier que vous venez de créer et cliquer sur le dossier `projet` puis cliquer sur `Ouvrir`
+## Étape 1 - Structure HTML de base
 
+**But de l'étape :** Construire une base valide pour votre document HTML.
 
-# Attention
+- Créer un fichier `index.html` s'il n'existe pas.
+- Écrire le doctype pour un fichier HTML5 sur la première ligne : `<!DOCTYPE html>`.
+- Sur la ligne suivante, écrire la balise `<html>`.
+- À l'intérieur de l'élément `<html>` :
+  - Écrire la balise `<head>`.
+  - Écrire la balise `<body>` en dessous avec le texte `Bonjour` à l'intérieur.
 
-Suivre les instructions telles quelles. Une fois le CV fini, vous pourrez changer le CV avec votre texte et photo.
+### Vérification - Étape 1
 
-# Etape 1 - Structure HTML
-
-- Créer un fichier `index.html` s'il n'est pas encore créé.
-
-- Créer le doctype pour un fichier HTML5 sur la première ligne : `<!DOCTYPE html>`
-- Sur la ligne suivante, écrire la balise `html`.
-
-- A l'intérieur de la balise `html`
-	- Créer la balise `head`
-	- Créer la balise `body` à la suite de la balise `head`
-
-- A l'intérieur de la balise `body`, écrire le texte `Hello world!`
-
-
-## Vérification
-
-Avant de passer à l'étape suivante, aller sur le navigateur et vérifier que le texte `Hello world!` s'affiche.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, allez sur le navigateur et vérifiez que le texte `Bonjour` s'affiche.
+Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -40,102 +26,95 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-	</head>
+  <head> </head>
   <body>
-		Hello world!
+    Bonjour
   </body>
 </html>
 ```
 
 </details>
 
-# Etape 2 - Métadonnées
+## Étape 2 - Métadonnées
 
-Dans le fichier `index.html`
+**But de l'étape :** Donner un titre à votre document et indiquer au navigateur quel [encodage](https://developer.mozilla.org/fr/docs/Glossaire/codage_caracteres) utiliser pour votre texte.
 
-- Dans la balise `head`
-	- créer une balise auto-fermante `meta`
-		- avec l'attribut `charset` et la valeur `utf8`
-	- créer la balise `title` avec le texte `CV de Camille`
+Dans l'élément `<head>` :
 
-## Vérification
+- Écrire une balise auto-fermante `<meta>` avec l'attribut `charset` et la valeur `utf8`.
+- Écrire une balise `<title>` avec le texte `CV de Camille`.
 
-Avant de passer à l'étape suivante, aller sur le navigateur, recharger la page et regarder si la tab a le titre `CV de Camille`.
+### Vérification - Étape 2
 
+Avant de passer à l'étape suivante, allez sur le navigateur, rechargez la page et regardez si l'onglet a le titre `CV de Camille`.
 
 <details>
     <summary>👀 Solution</summary>
 
 ```html
 <head>
-	<title>CV de Camille</title
-	<meta charset="utf8" />
+  <meta charset="utf8" />
+  <title>CV de Camille</title>
 </head>
 ```
 
 </details>
 
-# Etape 3 - Structure CSS
+## Étape 3 - Structure CSS
 
-- Créer le fichier `style.css` à côté du fichier `index.html`, s'il n'est pas encore créé.
+**But de l'étape :** Ajouter une feuille de style à votre document.
 
-- Créer une règle CSS avec le sélecteur `body`
-	- avec la propriété `font-family` et la valeur `Arial`
-	- avec la propriété `margin` et la valeur `0`
+- Créer le fichier `style.css` à côté du fichier `index.html` s'il n'existe pas.
+- Dans `style.css`, écrire les règles suivantes pour l'élément `<body>` :
+  - Appliquer la police de caractères `Arial` avec la propriété `font-family`.
+  - Réduire les marges extérieures à `0` avec la propriété `margin`.
+- Dans `index.html` :
+  - Dans la balise `<head>`, écrire une balise `<link>` pour lier le fichier CSS créé à l'instant.
 
-- Dans la balise `head`
-	- Créer la balise `link`
-		- avec l'attribut `rel` et la valeur `stylesheet`
-		- avec l'attribut `href` et la valeur `style.css`
+### Vérification - Étape 3
 
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que le texte `Hello world!` a changé de police d'écriture. De Times New Roman à Arial comme dans le CSS.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que le texte `Bonjour` a changé de police. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
 
-style.css
+Dans `style.css` :
 
 ```css
 body {
-	font-family: Arial;
-	margin: 0;
+  font-family: Arial;
+  margin: 0;
 }
 ```
 
-index.html
+Dans `index.html` :
 
 ```html
 <head>
-	<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 ```
 
 </details>
 
-# Etape 4 - Navigation HTML
+## Étape 4 - Liens de navigation interne
 
-Dans le fichier `index.html`
+**But de l'étape :** Créer des ancres qui permettront aux visiteurs de se déplacer instantanément vers les sections de leur choix.
 
-Effacer le texte `Hello world!`
+Dans le fichier `index.html`, à l'intérieur de l'élément `<body>` :
 
-A l'intérieur de la balise `body`
-- Créer la balise `nav`
-	- avec la classe `secondary-block`
-	- A l'intérieur, créer la balise `h2` avec le texte *Camille MARTIN*
-	- Après la balise, créer la balise `ul` avec 3 `li`
-		- Chacune de ces balises `li` aura une balise `a`.
-			1. La première balise `a` aura un attribut `href` de valeur `#profile` et le texte `Profil`
-			1. La première balise `a` aura un attribut `href` de valeur `#xp` et le texte `Expériences`
-			1. La première balise `a` aura un attribut `href` de valeur `#education` et le texte `Formations`
+- Effacer le texte `Bonjour`.
+- Écrire une balise `<nav>` avec la classe `secondary-block`.
+- À l'intérieur du `<nav>`, écrire une balise `<h2>` avec le texte `Camille MARTIN`.
+- Sous le titre `<h2>`, écrire une liste `<ul>` contenant 3 items `<li>`.
+- Dans chacun de ces 3 items `<li>`, écrire une balise `<a>`.
+  1. Ajouter au premier élément `<a>` un attribut `href` avec la valeur `#profile` et le texte `Profil`
+  2. Ajouter au second élément `<a>` un attribut `href` avec la valeur `#xp` et le texte `Expériences`.
+  3. Ajouter au troisième élément `<a>` un attribut `href` avec la valeur `#education` et le texte `Formations`.
 
-## Vérification
+### Vérification - Étape 4
 
-Avant de passer à l'étape suivante, vérifier que le texte *Camille MARTIN* apparaît en gras et les textes *Profil*, *Expériences* et *Formations* ont des puces
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que le texte `Camille MARTIN` apparaît en gras et les textes `Profil`, `Expériences` et `Formations` ont des puces sur leur gauche. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 ![nav](./assets/etape_nav.png)
 
@@ -144,52 +123,43 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <nav class="secondary-block">
-		<h2>Camille MARTIN</h2>
-		<ul>
-				<li><a href="#profile">Profil</a></li>
-				<li><a href="#xp">Expériences</a></li>
-				<li><a href="#education">Formations</a></li>
-		</ul>
+  <h2>Camille MARTIN</h2>
+  <ul>
+    <li><a href="#profil">Profil</a></li>
+    <li><a href="#xp">Expériences</a></li>
+    <li><a href="#education">Formations</a></li>
+  </ul>
 </nav>
 ```
 
 </details>
 
-# Etape 5 - Navigation CSS
+## Étape 5 - Style des liens de navigation
 
-Dans le fichier `style.css`
+**But de l'étape :** Changer le style de la section contenant les liens de navigation pour suivre le thème du CV.
 
-- Créer le sélecteur d'élément `a` qui changera la couleur en blanc
+Dans le fichier `style.css` :
 
-- Créer le sélecteur de classe `secondary-block`
-	- avec la couleur de texte blanche
-	- avec le fond de couleur `#0475BA`
+- Écrire des règles pour l'élément `<nav>` qui lui donnent une hauteur de `70` pixels et changent son affichage (`display`) en conteneur flexible (valeur `flex`).
+- Écrire des règles pour la classe `secondary-block` qui changent sa couleur de texte en blanc et change sa couleur de fond avec la valeur `rgb(4, 117, 186)`.
+- Écrire une règle pour les éléments `<a>` qui change leur couleur en blanc.
+- Écrire les règles suivantes pour l'élément `<h2>` enfant de `<nav>` :
+  - Des marges extérieures `margin` à `0`.
+  - Des marges intérieures `padding` :
+    - `20` pixels en haut.
+    - `0` à droite.
+    - `20` pixels en bas.
+    - `15` pixels à gauche.
+- Écrire les règles suivantes pour l'élément `<ul>` enfant de `<nav>` :
+  - Des marges extérieures `margin` à `0`.
+  - Des marges intérieures `padding` à `24` pixels.
+  - Supprimer les puces de la liste avec la propriété `list-style`.
+- Écrire une règle pour les éléments `<li>` enfants de `<nav>` qui change leur marge extérieure gauche à `15` pixels.
 
-- Créer un sélecteur `nav` qui donnera une hauteur (`height`) de 70 pixels
+### Vérification - Étape 5
 
-- Créer un sélecteur qui cible uniquement la balise `h2` dans la `nav`
-	- avec la propriété `margin` de valeur `0`
-	- avec la propriété `float` de valeur `left`
-	- avec un `padding` de :
-		- 20 pixels en haut,
-		- 0 à droite
-		- 20 pixels en bas
-		- 15 pixels à gauche
-
-- Créer un sélecteur qui cible uniquement la balise `ul` dans la `nav`
-	- avec la propriété `margin` de valeur `0`
-	- avec la propriété `padding` de 24 pixels
-	- avec la propriété `list-style` de valeur `none` pour enlever les puces de liste
-	- avec la propriété `float` de valeur `left`
-
-- Créer un sélecteur qui cible uniquement la balise `li` dans la `nav`
-	- avec la propriété `float` de valeur `left`
-	- avec la propriété `margin-left` de 15 pixels
-
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que le fond est bleu, le texte blanc et les liens sont alignés.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que le fond est bleu, le texte est blanc et les liens sont alignés.
+Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 ![nav](./assets/etape_nav_css.png)
 
@@ -198,34 +168,32 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```css
 a {
-  color: #FFF;  
+  color: rgb(255, 255, 255);
 }
 
 .secondary-block {
-    color: #FFF;
-    background: #0475BA;
+  color: rgb(255, 255, 255);
+  background-color: rgb(4, 117, 186);
 }
 
 nav {
-    height: 70px;
+  height: 70px;
+  display: flex;
 }
 
 nav h2 {
-    padding: 20px 0 20px 15px;
-    margin: 0;
-    float: left;
+  padding: 20px 0 20px 15px;
+  margin: 0;
 }
 
 nav ul {
-    margin: 0;
-    list-style: none;
-    float: left;
-    padding: 24px;
+  margin: 0;
+  list-style: none;
+  padding: 24px;
 }
 
 nav li {
-    float: left;
-    margin-left: 15px;
+  margin-left: 15px;
 }
 ```
 
@@ -235,11 +203,7 @@ nav li {
 
 Dans le fichier `index.html`
 
-- Créer la balise `header` juste après la balise `</nav>`, à l'intérieur :
-	- créer la balise `div` avec la classe `content` et à l'intérieur
-		- créer la balise `h1` avec le texte *Camille MARTIN*
-		- créer la balise `h2` avec le texte *Développeuse fullstack*
-		- afficher l'image `camille_martin.png`
+- Créer la balise `header` juste après la balise `</nav>`, à l'intérieur : - créer la balise `div` avec la classe `content` et à l'intérieur - créer la balise `h1` avec le texte _Camille MARTIN_ - créer la balise `h2` avec le texte _Développeuse fullstack_ - afficher l'image `camille_martin.png`
 
 ## Vérification
 
@@ -253,11 +217,11 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <header>
-	<div class="content">
-		<h1>Camille MARTIN</h1>
-		<h2>Développeuse fullstack</h2>
-		<img src="img/camille_martin.png" alt="Photo de Camille MARTIN" />
-	</div>
+  <div class="content">
+    <h1>Camille MARTIN</h1>
+    <h2>Développeuse fullstack</h2>
+    <img src="img/camille_martin.png" alt="Photo de Camille MARTIN" />
+  </div>
 </header>
 ```
 
@@ -267,20 +231,13 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 Dans le fichier `style.css`
 
-- Créer le sélecteur de classe `content`
-	- avec la propriété `max-width` de 800 pixels
-	- avec la propriété `margin` de valeur `0 auto`
+- Créer le sélecteur de classe `content` - avec la propriété `max-width` de 800 pixels - avec la propriété `margin` de valeur `0 auto`
 
-- Créer le sélecteur `header`
-	- centrer tous les éléments inlines à l'intérieur
-	- ajouter des marges intérieures de 40 pixels
+- Créer le sélecteur `header` - centrer tous les éléments inlines à l'intérieur - ajouter des marges intérieures de 40 pixels
 
 - Créer le sélecteur qui ciblera la balise `h2` dans la balise `header` et qui change la couleur du texte en bleu (`#0475BA`)
 
-- Créer le sélecteur qui ciblera unique les images dans la balise `header`
-	- de 150 pixels de largeur
-	- avec la propriété `border-radius` de 75 pixels
-	- avec la propriété `box-shadow` de valeur `3px 3px 6px #AAA`
+- Créer le sélecteur qui ciblera unique les images dans la balise `header` - de 150 pixels de largeur - avec la propriété `border-radius` de 75 pixels - avec la propriété `box-shadow` de valeur `3px 3px 6px #AAA`
 
 ## Vérification
 
@@ -294,22 +251,22 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```css
 .content {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 header {
-		text-align: center;
-		padding: 40px;
+  text-align: center;
+  padding: 40px;
 }
 header h2 {
-    color: #0475BA;
+  color: #0475ba;
 }
 
 header img {
-    width: 150px;
-    border-radius: 75px;
-    box-shadow: 3px 3px 6px #AAA;
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px #aaa;
 }
 ```
 
@@ -319,12 +276,7 @@ header img {
 
 Dans le fichier `index.html`
 
-- Créer une balise `section` à la suite de la balise `header`
-	- avec l'ID `profile` (du même nom de l'ancre dans la navigation)
-	- avec la classe `secondary-block`
-	- à l'intérieur, créer une balise `div` avec la classe `content`. Et à l'intérieur de cette `div`
-		- Créer la balise `h3` avec le texte `Présentation`
-		- Créer une balise `ul` avec 3 `li` avec les textes de l'image suivante
+- Créer une balise `section` à la suite de la balise `header` - avec l'ID `profile` (du même nom de l'ancre dans la navigation) - avec la classe `secondary-block` - à l'intérieur, créer une balise `div` avec la classe `content`. Et à l'intérieur de cette `div` - Créer la balise `h3` avec le texte `Présentation` - Créer une balise `ul` avec 3 `li` avec les textes de l'image suivante
 
 ![presentation](./assets/etape_presentation.png)
 
@@ -333,25 +285,23 @@ Dans le fichier `index.html`
 Avant de passer à l'étape suivante, vérifier tous les textes de l'image apparaissent.
 Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
-
 <details>
     <summary>👀 Solution</summary>
 
 ```html
 <section id="profile" class="secondary-block">
-	<div class="content">
-		<h3>Présentation</h3>
-		<ul>
-			<li>Passionée</li>
-			<li>Autonome</li>
-			<li>Une bonne journée ne se passe sans un bon livre</li>
-		</ul>
-	</div>
+  <div class="content">
+    <h3>Présentation</h3>
+    <ul>
+      <li>Passionée</li>
+      <li>Autonome</li>
+      <li>Une bonne journée ne se passe sans un bon livre</li>
+    </ul>
+  </div>
 </section>
 ```
 
 </details>
-
 
 # Etape 9 - Présentation CSS
 
@@ -373,7 +323,7 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```css
 header {
-		padding: 40px;
+  padding: 40px;
 }
 ```
 
@@ -383,16 +333,12 @@ header {
 
 Dans le fichier `index.html`
 
-- Créer une balise `section` d'ID `xp` (comme dans la navigation), à la suite de la première balise `section`
-	- A l'intérieur de cette balise, créer une balise `div` de classe `content`
+- Créer une balise `section` d'ID `xp` (comme dans la navigation), à la suite de la première balise `section` - A l'intérieur de cette balise, créer une balise `div` de classe `content`
 
 A l'intérieur de la div :
 
-- Créer une balise `h3` avec le texte *Expériences professionnelles*
-- Créer une balise `div`, et à l'intérieur
-	- Créer une balise `aside` avec le texte `2018`
-	- Créer une balise `h4` avec le texte `Stagiaire`
-	- Créer une balise `ul` avec 2 `li` et les textes de l'image suivante
+- Créer une balise `h3` avec le texte _Expériences professionnelles_
+- Créer une balise `div`, et à l'intérieur - Créer une balise `aside` avec le texte `2018` - Créer une balise `h4` avec le texte `Stagiaire` - Créer une balise `ul` avec 2 `li` et les textes de l'image suivante
 
 ![experience half](./assets/etape_experiences_half.png)
 
@@ -406,17 +352,17 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <section id="xp">
-	<div class="content">
-		<h3>Expériences professionnelles</h3>
-		<div>
-			<aside>2018</aside>
-			<h4>Stagiaire</h4>
-			<ul>
-				<li>Création de sites web</li>
-				<li>Management de projet</li>
-			</ul>
-		</div>
-	</div>
+  <div class="content">
+    <h3>Expériences professionnelles</h3>
+    <div>
+      <aside>2018</aside>
+      <h4>Stagiaire</h4>
+      <ul>
+        <li>Création de sites web</li>
+        <li>Management de projet</li>
+      </ul>
+    </div>
+  </div>
 </section>
 ```
 
@@ -442,25 +388,25 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <section id="xp">
-	<div class="content">
-		<h3>Expériences professionnelles</h3>
-		<div>
-			<aside>2018</aside>
-			<h4>Stagiaire</h4>
-			<ul>
-				<li>Création de sites web</li>
-				<li>Management de projet</li>
-			</ul>
-		</div>
-		<div>
-			<aside>2016-2018</aside>
-			<h4>Bénévole</h4>
-			<ul>
-				<li>Création de sites web</li>
-				<li>Management de projet</li>
-			</ul>
-		</div>
-	</div>
+  <div class="content">
+    <h3>Expériences professionnelles</h3>
+    <div>
+      <aside>2018</aside>
+      <h4>Stagiaire</h4>
+      <ul>
+        <li>Création de sites web</li>
+        <li>Management de projet</li>
+      </ul>
+    </div>
+    <div>
+      <aside>2016-2018</aside>
+      <h4>Bénévole</h4>
+      <ul>
+        <li>Création de sites web</li>
+        <li>Management de projet</li>
+      </ul>
+    </div>
+  </div>
 </section>
 ```
 
@@ -470,15 +416,11 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 Dans le fichier `style.css`
 
-- Créer le sélecteur d'ID `xp` qui cible l'enfant `ul`
-	- avec les marges intérieures et extérieures à zéro.
-	- en supprimant les puces de listes
+- Créer le sélecteur d'ID `xp` qui cible l'enfant `ul` - avec les marges intérieures et extérieures à zéro. - en supprimant les puces de listes
 
-- Créer le sélecteur qui ne sélectionne que les balises `li` de la section d'ID `xp`
-	- avec une marge extérieure en bas de 10 pixels
+- Créer le sélecteur qui ne sélectionne que les balises `li` de la section d'ID `xp` - avec une marge extérieure en bas de 10 pixels
 
-- Créer le sélecteur `aside` de la section d'ID `xp`
-	- avec la propriété `float` de valeur `right`
+- Créer le sélecteur `aside` de la section d'ID `xp` - avec la propriété `float` de valeur `right`
 
 ![experience](./assets/etape_experiences_css.png)
 
@@ -492,15 +434,15 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```css
 #xp ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 #xp li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 #xp aside {
-    float: right;
+  float: right;
 }
 ```
 
@@ -508,7 +450,7 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 # Etape 13 - Formations HTML et CSS
 
-La présentation entre la section *Expériences* et *Formations* est très similaire.
+La présentation entre la section _Expériences_ et _Formations_ est très similaire.
 
 ### HTML
 
@@ -527,38 +469,42 @@ Sans instructions précises et en suivant les bases que vous avez déjà utilis�
 Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
 Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
-
 <details>
     <summary>👀 Solution</summary>
 
 ```html
 <section id="education" class="secondary-block">
-	<div class="content">
-		<h3>Formations</h3>
-		<ul>
-			<li><aside>2018</aside>Licence</li>
-			<li><aside>2015</aside>Bac S</li>
-		</ul>
-	</div>
+  <div class="content">
+    <h3>Formations</h3>
+    <ul>
+      <li>
+        <aside>2018</aside>
+        Licence
+      </li>
+      <li>
+        <aside>2015</aside>
+        Bac S
+      </li>
+    </ul>
+  </div>
 </section>
 ```
 
 ```css
 #education ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 #education li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 #education aside {
-    float: right;
+  float: right;
 }
 ```
 
 </details>
-
 
 # Etape 14 - Passions
 
@@ -568,7 +514,7 @@ Dans le fichier `index.html`
 
 A l'intérieur de la `div.content`, créer les balises suivantes :
 
-- `h3` avec le texte *Passions*
+- `h3` avec le texte _Passions_
 - `p` avec le texte `Saut en parachute`
 - `p` avec le texte `Bali`
 
@@ -586,11 +532,11 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <section>
-	<div class="content">
-		<h3>Passions</h3>
-		<p>Saut en parachute</p>
-		<p>Bali</p>
-	</div>
+  <div class="content">
+    <h3>Passions</h3>
+    <p>Saut en parachute</p>
+    <p>Bali</p>
+  </div>
 </section>
 ```
 
@@ -600,20 +546,17 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 Dans le fichier `index.html`
 
-- Créer une balise `footer` ce classe `secondary-block` à la suite de la balise `section`
-	- A l'intérieur, créer une balise `div` de classe `content`
+- Créer une balise `footer` ce classe `secondary-block` à la suite de la balise `section` - A l'intérieur, créer une balise `div` de classe `content`
 
 A l'intérieur de la balise `div.content`
 
-- Créer une balise `div` de classe `links` qui contiendra
-	- Une balise `ul` avec 2 `li` qui eux-même contiendront 2 ancres (balise `a`) avec les attributs `href` de valeurs `#`
+- Créer une balise `div` de classe `links` qui contiendra - Une balise `ul` avec 2 `li` qui eux-même contiendront 2 ancres (balise `a`) avec les attributs `href` de valeurs `#`
 
 Mettre les textes correspondants à l'image dans la colonne de gauche.
 
 En faisant attention à l'indentation, reproduire cette structure pour les 2 autres liens.
 
 ![footer](./assets/etape_footer.png)
-
 
 ## Vérification
 
@@ -625,20 +568,20 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 ```html
 <footer class="secondary-block">
-	<div class="content">
-		<div class="links">
-			<ul>
-				<li><a href="http://konexio.eu" target="_blank">Voyage</a></li>
-				<li><a href="http://konexio.eu"  target="_blank">Tech</a></li>
-			</ul>
-		</div>
-		<div class="links">
-			<ul>
-				<li><a href="http://konexio.eu"  target="_blank">LinkedIn</a></li>
-				<li><a href="http://konexio.eu"  target="_blank">Twitter</a></li>
-			</ul>
-		</div>
-	</div>
+  <div class="content">
+    <div class="links">
+      <ul>
+        <li><a href="http://konexio.eu" target="_blank">Voyage</a></li>
+        <li><a href="http://konexio.eu" target="_blank">Tech</a></li>
+      </ul>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="http://konexio.eu" target="_blank">LinkedIn</a></li>
+        <li><a href="http://konexio.eu" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </div>
 </footer>
 ```
 
@@ -650,46 +593,39 @@ Dans le fichier `style.css`
 
 - Créer le sélecteur `footer` avec des marges intérieures de 40 pixels
 
-- Créer le sélecteur qui ciblera que les balises `ul` dans le `footer` 
-	- avec les marges intérieures et extérieures à zéro
-	- en supprimant les puces de listes
+- Créer le sélecteur qui ciblera que les balises `ul` dans le `footer` - avec les marges intérieures et extérieures à zéro - en supprimant les puces de listes
 
-- Créer le sélecteur de classe `links
-	- avec une marge extérieure en bas de 25 pixels
-	- une largeur de 390 pixels
-	- avec la propriété `display` de valeur `inline-block`
+- Créer le sélecteur de classe `links - avec une marge extérieure en bas de 25 pixels - une largeur de 390 pixels - avec la propriété`display`de valeur`inline-block`
 
 ![footer](./assets/etape_footer_css.png)
 ![footer](./assets/etape_footer_css_desktop.png)
 
 ## Vérification
 
-Avant de passer à l'étape suivante, vérifier que la page ressemble aux images en version mobile et desktop. 
+Avant de passer à l'étape suivante, vérifier que la page ressemble aux images en version mobile et desktop.
 Si non, appeler un assistant et/ou regarder la solution pour vous aider.
-
 
 <details>
     <summary>👀 Solution</summary>
 
 ```css
 footer {
-	padding: 40px;
+  padding: 40px;
 }
 footer ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 footer .links {
-	margin-bottom: 25px;
-	display: inline-block;
-	width: 390px;
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 390px;
 }
 ```
 
 </details>
-
 
 # Etape 17 - Customiser
 
