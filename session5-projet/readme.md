@@ -116,7 +116,7 @@ Dans le fichier `index.html`, à l'intérieur de l'élément `<body>` :
 
 Avant de passer à l'étape suivante, vérifiez que le texte `Camille MARTIN` apparaît en gras et les textes `Profil`, `Expériences` et `Formations` ont des puces sur leur gauche. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
-![nav](./assets/etape_nav.png)
+![Liens de navigation](./assets/etape_nav.png)
 
 <details>
     <summary>👀 Solution</summary>
@@ -162,7 +162,7 @@ Dans le fichier `style.css` :
 Avant de passer à l'étape suivante, vérifiez que le fond est bleu, le texte est blanc et les liens sont alignés.
 Si non, appelez un assistant ou regardez la solution pour vous aider.
 
-![nav](./assets/etape_nav_css.png)
+![Liens de navigation avec CSS](./assets/etape_nav_css.png)
 
 <details>
     <summary>👀 Solution</summary>
@@ -216,7 +216,7 @@ Dans le fichier `index.html` :
 
 Avant de passer à l'étape suivante, vérifiez que le nom est plus grand que le métier et que la photo apparaît. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
-![header](./assets/etape_header.png)
+![En-tête](./assets/etape_header.png)
 
 <details>
     <summary>👀 Solution</summary>
@@ -253,7 +253,7 @@ Dans le fichier `style.css` :
 
 Avant de passer à l'étape suivante, vérifiez que le nom est en noir, le métier en bleu et l'image est ronde avec une ombre. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
-![header](./assets/etape_header_css.png)
+![En-tête avec CSS](./assets/etape_header_css.png)
 
 <details>
   <summary>👀 Solution</summary>
@@ -292,7 +292,7 @@ Dans le fichier `index.html` :
   - Écrire une balise `<h3>` avec le texte `Présentation`.
   - Écrire une balise `<ul>` avec 3 enfants `<li>` contenant le texte affiché dans l'image ci-dessous.
 
-![presentation](./assets/etape_presentation.png)
+![Présentation](./assets/etape_presentation.png)
 
 ### Vérification - Étape 8
 
@@ -328,7 +328,7 @@ C'est tout. Grâce au CSS déjà créé dans les étapes précédentes, il n'y a
 
 Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessous. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
-![presentation](./assets/etape_presentation_css.png)
+![Présentation avec CSS](./assets/etape_presentation_css.png)
 
 <details>
     <summary>👀 Solution</summary>
@@ -381,20 +381,19 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image
 
 </details>
 
-# Etape 11 - Expériences HTML partie 2
+## Étape 11 - Expériences professionnelles (Partie 2/2)
 
-Toujours dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-En faisant extrêmement attention à l'indentation, créer une `div` contenant les balises `aside`, `h4` et `ul` juste avant la balise de fermeture `div.content` et juste avant la balise `div` qui contient la première expérience.
+- En faisant attention à l'indentation, écrire une nouvelle balise `<div>` dans le `<div>` ayant la classe `content`.
+- À l'intérieur de ce nouveau `<div>`, ajouter des balises `<aside>`, `<h4>` et `<ul>`, comme dans l'étape précédente.
+- Reprendre les textes de l'image ci-dessous pour le contenu de ces balises.
 
-Reprenez les textes de l'image.
+![Expérience professionnelle 2/2](./assets/etape_experiences.png)
 
-![experience](./assets/etape_experiences.png)
+### Vérification - Étape 11
 
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessus. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -425,22 +424,21 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 </details>
 
-# Etape 12 - Expériences CSS
+## Étape 12 - Style des expériences professionnelles
 
-Dans le fichier `style.css`
+Dans le fichier `style.css` :
 
-- Créer le sélecteur d'ID `xp` qui cible l'enfant `ul` - avec les marges intérieures et extérieures à zéro. - en supprimant les puces de listes
+- Écrire les règles suivantes pour les éléments `<ul>` enfants de l'élément ayant l'ID `xp` :
+  - Mettre des marges intérieures et extérieures à `0`.
+  - Supprimer les puces des listes.
+- Écrire une règle pour les éléments `<li>` enfants de l'élément ayant l'ID `xp` qui leur donne une marge extérieure de `10` pixels en bas.
+- Écrire une règle pour les éléments `<aside>` enfants de l'élément ayant l'ID `xp` qui les place à droite du document avec la propriété `float` et la valeur `right`.
 
-- Créer le sélecteur qui ne sélectionne que les balises `li` de la section d'ID `xp` - avec une marge extérieure en bas de 10 pixels
+![Expériences professionnelles avec CSS](./assets/etape_experiences_css.png)
 
-- Créer le sélecteur `aside` de la section d'ID `xp` - avec la propriété `float` de valeur `right`
+### Vérification - Étape 12
 
-![experience](./assets/etape_experiences_css.png)
-
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -451,9 +449,11 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
   padding: 0;
   margin: 0;
 }
+
 #xp li {
   margin-bottom: 10px;
 }
+
 #xp aside {
   float: right;
 }
