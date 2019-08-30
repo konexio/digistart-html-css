@@ -461,26 +461,25 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image
 
 </details>
 
-# Etape 13 - Formations HTML et CSS
+## Étape 13 - Formations
 
-La présentation entre la section _Expériences_ et _Formations_ est très similaire.
+**La présentation entre la section _Expériences_ et _Formations_ est très similaire.**
 
-### HTML
+### HTML pour la section _Formations_
 
-Sans instructions précises et en suivant les bases que vous avez déjà utilisé, reproduire la structure HTML qui ressemblera à cette image.
+Sans instructions précises et en vous inspirant du code que vous avez déjà produit, écrivez la structure HTML qui ressemblera à l'image ci-dessous.
 
-![formation](./assets/etape_formations.png)
+![Formations](./assets/etape_formations.png)
 
-### CSS
+### CSS pour la section _Formations_
 
-Sans instructions précises et en suivant les bases que vous avez déjà utilisé, reproduire les sélecteurs CSS qui mettront le style correspondant à cette image.
+Sans instructions précises et en vous inspirant du code que vous avez déjà produit, écrivez les règles CSS qui appliqueront le style correspondant à l'image ci-dessous.
 
-![formation](./assets/etape_formations_css.png)
+![Formations avec CSS](./assets/etape_formations_css.png)
 
-## Vérification
+### Vérification - Étape 13
 
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessus. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -509,9 +508,11 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
   padding: 0;
   margin: 0;
 }
+
 #education li {
   margin-bottom: 10px;
 }
+
 #education aside {
   float: right;
 }
@@ -519,23 +520,21 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 </details>
 
-# Etape 14 - Passions
+## Étape 14 - Passions
 
-Dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-- Créer une `section` et une `div` de classe `content` à l'intérieur
+- Écrire une balise `<section>` avec un `<div>` de classe `content` à l'intérieur.
+- À l'intérieur de ce `<div>`, écrire les balises suivantes :
+  - Un `<h3>` avec le texte `Passions`.
+  - Un `<p>` avec le texte `Saut en parachute`.
+  - Un `<p>` avec le texte `Bali`.
 
-A l'intérieur de la `div.content`, créer les balises suivantes :
+Vous n'avez pas besoin d'ajouter du CSS pour cette étape car le style écrit avant s'applique ici par effet de cascade.
 
-- `h3` avec le texte _Passions_
-- `p` avec le texte `Saut en parachute`
-- `p` avec le texte `Bali`
+![Passions](./assets/etape_passions.png)
 
-Normalement, vous n'aurez pas besoin de CSS puisque le style en cascade s'applique à tous les éléments en cours.
-
-![formation](./assets/etape_passions.png)
-
-## Vérification
+### Vérification - Étape 14
 
 Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
 Si non, appeler un assistant et/ou regarder la solution pour vous aider.
