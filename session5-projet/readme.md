@@ -69,7 +69,7 @@ Avant de passer à l'étape suivante, allez sur le navigateur, rechargez la page
   - Appliquer la police de caractères `Arial` avec la propriété `font-family`.
   - Réduire les marges extérieures à `0` avec la propriété `margin`.
 - Dans `index.html` :
-  - Dans la balise `<head>`, écrire une balise `<link>` pour lier le fichier CSS créé à l'instant.
+  - Dans l'élément `<head>`, écrire une balise `<link>` pour lier le fichier CSS créé à l'instant.
 
 ### Vérification - Étape 3
 
@@ -105,8 +105,8 @@ Dans le fichier `index.html`, à l'intérieur de l'élément `<body>` :
 
 - Effacer le texte `Bonjour`.
 - Écrire une balise `<nav>` avec la classe `secondary-block`.
-- À l'intérieur du `<nav>`, écrire une balise `<h2>` avec le texte `Camille MARTIN`.
-- Sous le titre `<h2>`, écrire une liste `<ul>` contenant 3 items `<li>`.
+- À l'intérieur de l'élément `<nav>`, écrire une balise `<h2>` avec le texte `Camille MARTIN`.
+- Après le titre `<h2>`, écrire une liste `<ul>` contenant 3 items `<li>`.
 - Dans chacun de ces 3 items `<li>`, écrire une balise `<a>`.
   1. Ajouter au premier élément `<a>` un attribut `href` avec la valeur `#profile` et le texte `Profil`
   2. Ajouter au second élément `<a>` un attribut `href` avec la valeur `#xp` et le texte `Expériences`.
@@ -125,7 +125,7 @@ Avant de passer à l'étape suivante, vérifiez que le texte `Camille MARTIN` ap
 <nav class="secondary-block">
   <h2>Camille MARTIN</h2>
   <ul>
-    <li><a href="#profil">Profil</a></li>
+    <li><a href="#profile">Profil</a></li>
     <li><a href="#xp">Expériences</a></li>
     <li><a href="#education">Formations</a></li>
   </ul>
@@ -134,9 +134,9 @@ Avant de passer à l'étape suivante, vérifiez que le texte `Camille MARTIN` ap
 
 </details>
 
-## Étape 5 - Style des liens de navigation
+## Étape 5 - Style des liens de navigation interne
 
-**But de l'étape :** Changer le style de la section contenant les liens de navigation pour suivre le thème du CV.
+**But de l'étape :** Changer le style de la section contenant les liens de navigation pour que tout soit aligné et suive le thème du CV.
 
 Dans le fichier `style.css` :
 
@@ -144,15 +144,16 @@ Dans le fichier `style.css` :
 - Écrire des règles pour la classe `secondary-block` qui changent sa couleur de texte en blanc et change sa couleur de fond avec la valeur `rgb(4, 117, 186)`.
 - Écrire une règle pour les éléments `<a>` qui change leur couleur en blanc.
 - Écrire les règles suivantes pour l'élément `<h2>` enfant de `<nav>` :
-  - Des marges extérieures `margin` à `0`.
-  - Des marges intérieures `padding` :
+  - Des marges extérieures (`margin`) à `0`.
+  - Des marges intérieures (`padding`) avec :
     - `20` pixels en haut.
     - `0` à droite.
     - `20` pixels en bas.
     - `15` pixels à gauche.
 - Écrire les règles suivantes pour l'élément `<ul>` enfant de `<nav>` :
-  - Des marges extérieures `margin` à `0`.
-  - Des marges intérieures `padding` à `24` pixels.
+  - Un affichage (`display`) en mode `flex`.
+  - Des marges extérieures à `0`.
+  - Des marges intérieures à `24` pixels.
   - Supprimer les puces de la liste avec la propriété `list-style`.
 - Écrire une règle pour les éléments `<li>` enfants de `<nav>` qui change leur marge extérieure gauche à `15` pixels.
 
@@ -177,8 +178,8 @@ a {
 }
 
 nav {
-  height: 70px;
   display: flex;
+  height: 70px;
 }
 
 nav h2 {
@@ -187,6 +188,7 @@ nav h2 {
 }
 
 nav ul {
+  display: flex;
   margin: 0;
   list-style: none;
   padding: 24px;
@@ -199,16 +201,20 @@ nav li {
 
 </details>
 
-# Etape 6 - En-tête HTML
+## Étape 6 - En-tête du CV
 
-Dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-- Créer la balise `header` juste après la balise `</nav>`, à l'intérieur : - créer la balise `div` avec la classe `content` et à l'intérieur - créer la balise `h1` avec le texte _Camille MARTIN_ - créer la balise `h2` avec le texte _Développeuse fullstack_ - afficher l'image `camille_martin.png`
+- Écrire une balise `<header>` après l'élément `<nav>`, avec à l'intérieur :
+  - Une balise `<div>` avec la classe `content`.
+  - À l'intérieur de ce `<div>` :
+    - Écrire une balise `<h1>` avec le texte `Camille MARTIN`.
+    - Écrire une balise `h2` avec le texte `Développeuse fullstack`
+    - Écrire la balise qui permet d'afficher l'image `camille_martin.png`.
 
-## Vérification
+### Vérification - Étape 6
 
-Avant de passer à l'étape suivante, vérifier que le prénom est en noire, le métier en bleu et l'image est ronde.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que le nom est plus grand que le métier et que la photo apparaît. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 ![header](./assets/etape_header.png)
 
@@ -220,70 +226,77 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
   <div class="content">
     <h1>Camille MARTIN</h1>
     <h2>Développeuse fullstack</h2>
-    <img src="img/camille_martin.png" alt="Photo de Camille MARTIN" />
+    <img src="camille_martin.png" alt="Photo de Camille MARTIN" />
   </div>
 </header>
 ```
 
 </details>
 
-# Etape 7 - En-tête CSS
+## Étape 7 - Style de l'en-tête
 
-Dans le fichier `style.css`
+Dans le fichier `style.css` :
 
-- Créer le sélecteur de classe `content` - avec la propriété `max-width` de 800 pixels - avec la propriété `margin` de valeur `0 auto`
+- Écrire les règles suivantes pour l'élément `<header>` :
+  - Centrer tous les textes à l'intérieur.
+  - Ajouter des marges intérieures de `40` pixels.
+- Écrire les règles suivantes pour la classe `content` :
+  - Définir une largeur maximale de `800` pixels avec la propriété `max-width`.
+  - Centrer le reste du contenu avec la propriété `margin` et la valeur `0 auto`.
+- Écrire une règle pour l'élément `<h2>` enfant de `<header>` qui change la couleur du texte en bleu avec `rgb(4, 117, 186)`.
+- Écrire les règles suivantes pour l'image enfant de l'élément `<header>` :
+  - Une largeur de `150` pixels.
+  - Arrondir l'image avec la propriété `border-radius` et une valeur de `75` pixels (la moitié de la largeur).
+  - Donner une ombre légère à l'image avec la propriété `box-shadow` et la valeur `3px 3px 6px rgb(170, 170, 170)`. Si vous avez du mal à voir l'ombre, vous pouvez la rendre plus sombre en diminuant les valeurs de `rgb`.
 
-- Créer le sélecteur `header` - centrer tous les éléments inlines à l'intérieur - ajouter des marges intérieures de 40 pixels
+### Vérification - Étape 7
 
-- Créer le sélecteur qui ciblera la balise `h2` dans la balise `header` et qui change la couleur du texte en bleu (`#0475BA`)
-
-- Créer le sélecteur qui ciblera unique les images dans la balise `header` - de 150 pixels de largeur - avec la propriété `border-radius` de 75 pixels - avec la propriété `box-shadow` de valeur `3px 3px 6px #AAA`
-
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que le prénom est en noire, le métier en bleu et l'image est ronde.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que le nom est en noir, le métier en bleu et l'image est ronde avec une ombre. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 ![header](./assets/etape_header_css.png)
 
 <details>
-    <summary>👀 Solution</summary>
+  <summary>👀 Solution</summary>
 
 ```css
+header {
+  text-align: center;
+  padding: 40px;
+}
+
 .content {
   max-width: 800px;
   margin: 0 auto;
 }
 
-header {
-  text-align: center;
-  padding: 40px;
-}
 header h2 {
-  color: #0475ba;
+  color: rgb(4, 117, 186);
 }
 
 header img {
   width: 150px;
   border-radius: 75px;
-  box-shadow: 3px 3px 6px #aaa;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
 }
 ```
 
 </details>
 
-# Etape 8 - Présentation HTML
+## Étape 8 - Présentation de la personne
 
-Dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-- Créer une balise `section` à la suite de la balise `header` - avec l'ID `profile` (du même nom de l'ancre dans la navigation) - avec la classe `secondary-block` - à l'intérieur, créer une balise `div` avec la classe `content`. Et à l'intérieur de cette `div` - Créer la balise `h3` avec le texte `Présentation` - Créer une balise `ul` avec 3 `li` avec les textes de l'image suivante
+- Écrire une balise `<section>` après l'élément `<header>` avec un ID `profile` (du même nom de l'ancre dans la navigation) et une classe `secondary-block`
+- À l'intérieur de cette section, écrire une balise `<div>` avec la classe `content`.
+- À l'intérieur de ce `<div>` :
+  - Écrire une balise `<h3>` avec le texte `Présentation`.
+  - Écrire une balise `<ul>` avec 3 enfants `<li>` contenant le texte affiché dans l'image ci-dessous.
 
 ![presentation](./assets/etape_presentation.png)
 
-## Vérification
+### Vérification - Étape 8
 
-Avant de passer à l'étape suivante, vérifier tous les textes de l'image apparaissent.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que tous les textes de l'image sont visibles. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -303,18 +316,17 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 </details>
 
-# Etape 9 - Présentation CSS
+## Étape 9 - Style de la présentation
 
-Dans le fichier `style.css`
+Dans le fichier `style.css` :
 
-- Créer le sélecteur `section` avec des marges intérieures de 40 pixels
+- Écrire une règle pour que les éléments `<section>` aient des marges intérieures de `40` pixels.
 
-C'est tout. Grâce au CSS déjà créer dans les sections précédentes, il n'y a rien d'autres à ajouter.
+C'est tout. Grâce au CSS déjà créé dans les étapes précédentes, il n'y a rien d'autres à ajouter.
 
-## Vérification
+### Vérification - Étape 9
 
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessous. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 ![presentation](./assets/etape_presentation_css.png)
 
@@ -322,30 +334,31 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
     <summary>👀 Solution</summary>
 
 ```css
-header {
+section {
   padding: 40px;
 }
 ```
 
 </details>
 
-# Etape 10 - Expériences HTML partie 1
+## Étape 10 - Expériences professionnelles (Partie 1/2)
 
-Dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-- Créer une balise `section` d'ID `xp` (comme dans la navigation), à la suite de la première balise `section` - A l'intérieur de cette balise, créer une balise `div` de classe `content`
+- Sous la dernière section, écrire une autre balise `<section>` avec un ID `xp`, comme dans un des liens de navigation en haut de la page.
+- À l'intérieur de cette nouvelle section, écrire une balise `<div>` avec une classe `content`.
+- À l'intérieur de ce `<div>` :
+  - Écrire une balise `<h3>` avec le texte `Expériences professionnelles`.
+  - Écrire une balise `<div>` avec à l'intérieur :
+    - Une balise `<aside>` avec le texte `2018`.
+    - Une balise `<h4>` avec le texte `Stagiaire`.
+    - Une balise `<ul>` avec 2 enfants `<li>` et les textes de l'image ci-dessous.
 
-A l'intérieur de la div :
+![Expérience professionnelle 1/2](./assets/etape_experiences_half.png)
 
-- Créer une balise `h3` avec le texte _Expériences professionnelles_
-- Créer une balise `div`, et à l'intérieur - Créer une balise `aside` avec le texte `2018` - Créer une balise `h4` avec le texte `Stagiaire` - Créer une balise `ul` avec 2 `li` et les textes de l'image suivante
+### Vérification - Étape 10
 
-![experience half](./assets/etape_experiences_half.png)
-
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessus. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
