@@ -554,26 +554,22 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 </details>
 
-# Etape 15 - Footer HTML
+## Étape 15 - Bas de page
 
-Dans le fichier `index.html`
+Dans le fichier `index.html` :
 
-- Créer une balise `footer` ce classe `secondary-block` à la suite de la balise `section` - A l'intérieur, créer une balise `div` de classe `content`
-
-A l'intérieur de la balise `div.content`
-
-- Créer une balise `div` de classe `links` qui contiendra - Une balise `ul` avec 2 `li` qui eux-même contiendront 2 ancres (balise `a`) avec les attributs `href` de valeurs `#`
-
-Mettre les textes correspondants à l'image dans la colonne de gauche.
-
-En faisant attention à l'indentation, reproduire cette structure pour les 2 autres liens.
+- Après le dernier élément `<section>`, écrire une balise `<footer>` avec la classe `secondary-block`.
+- À l'intérieur de ce `<footer>`, écrire une balise `<div>` avec la classe `content`.
+- À l'intérieur de ce `<div>`, écrire une autre balise `<div>` avec la classe `links`.
+- Dans ce second `<div>`, écrire une balise `<ul>` avec 2 enfants `<li>` qui contiendront 2 ancres avec des attributs `href` de valeurs `#`.
+- Mettre les textes correspondants à l'image ci-dessous dans les ancres.
+- Reproduire la même structure pour les 2 ancres du bas.
 
 ![footer](./assets/etape_footer.png)
 
-## Vérification
+### Vérification - Étape 15
 
-Avant de passer à l'étape suivante, vérifier que la page ressemble à l'image.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image ci-dessus. Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -583,14 +579,14 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
   <div class="content">
     <div class="links">
       <ul>
-        <li><a href="http://konexio.eu" target="_blank">Voyage</a></li>
-        <li><a href="http://konexio.eu" target="_blank">Tech</a></li>
+        <li><a href="http://konexio.eu">Voyage</a></li>
+        <li><a href="http://konexio.eu">Tech</a></li>
       </ul>
     </div>
     <div class="links">
       <ul>
-        <li><a href="http://konexio.eu" target="_blank">LinkedIn</a></li>
-        <li><a href="http://konexio.eu" target="_blank">Twitter</a></li>
+        <li><a href="http://konexio.eu">LinkedIn</a></li>
+        <li><a href="http://konexio.eu">Twitter</a></li>
       </ul>
     </div>
   </div>
@@ -599,23 +595,26 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 
 </details>
 
-# Etape 16 - Footer CSS
+## Étape 16 - Style du bas de page
 
-Dans le fichier `style.css`
+Dans le fichier `style.css` :
 
-- Créer le sélecteur `footer` avec des marges intérieures de 40 pixels
-
-- Créer le sélecteur qui ciblera que les balises `ul` dans le `footer` - avec les marges intérieures et extérieures à zéro - en supprimant les puces de listes
-
-- Créer le sélecteur de classe `links - avec une marge extérieure en bas de 25 pixels - une largeur de 390 pixels - avec la propriété`display`de valeur`inline-block`
+- Écrire une règle pour l'élément `<footer>` qui lui applique des marges intéreures de `40` pixels.
+- Écrire les règles suivantes pour les éléments `<ul>` enfants de `<footer>` :
+  - Des marges intérieures à `0`.
+  - Des marges extérieures à `0`.
+  - Supprimer les puces des listes.les puces de listes
+- Écrire les règles suivantes pour les éléments ayant la classe `links` :
+  - Une marge extérieure en bas de `25` pixels.
+  - Une largeur de `390` pixels.
+  - Un affichage en `inline-block`.
 
 ![footer](./assets/etape_footer_css.png)
 ![footer](./assets/etape_footer_css_desktop.png)
 
 ## Vérification
 
-Avant de passer à l'étape suivante, vérifier que la page ressemble aux images en version mobile et desktop.
-Si non, appeler un assistant et/ou regarder la solution pour vous aider.
+Avant de passer à l'étape suivante, vérifiez que la page ressemble aux images en version mobile (haut) et desktop (bas). Si non, appelez un assistant ou regardez la solution pour vous aider.
 
 <details>
     <summary>👀 Solution</summary>
@@ -624,13 +623,14 @@ Si non, appeler un assistant et/ou regarder la solution pour vous aider.
 footer {
   padding: 40px;
 }
+
 footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-footer .links {
+.links {
   margin-bottom: 25px;
   display: inline-block;
   width: 390px;
@@ -639,27 +639,29 @@ footer .links {
 
 </details>
 
-# Etape 17 - Customiser
+## Étape 17 - Personnalisation du CV
 
-Changer le texte et les couleurs à votre goût pour personnaliser votre CV.
+Changez le texte et les couleurs du CV à votre goût pour le personnaliser.
 
-# Etape 18 - Publier sa page sur internet
+## Étape 18 - Publication du CV sur Internet
 
-Votre page est terminée, il est temps de la mettre en ligne.
+Votre page est terminée, il est temps de la publier en ligne.
 
-- Aller sur le site [Github](https://github.com/)
-  - Créer un compte si vous en avez pas, autrement connectez-vous à votre compte
-  - Valider votre inscription avec le lien reçu dans votre boîte email
-- Télécharger, installer et se connecter au [Github Desktop](https://desktop.github.com/)
-- Revenir sur la page Github et cliquer sur le "+" en haut à droite et cliquer sur `New repository`
-  - Dans le `Repository name`, écrire `<username>.github.io` où `username` sera votre nom de compte (le même qui est déjà apparant dans la partie `Owner`)
-  - Pas de `description`,
-  - Garder le repository `Public`,
-  - Laisser la case `Initialize this repository with README` décoché
-  - Cliquer sur `Create repository`
-- Une fois créée, une nouvelle page s'affichera et cliquer sur le bouton à gauche `Set up in desktop` et l'application Github Desktop va s'ouvrir
-  - Cliquer sur le lien `open this repository` dans la fenêtre centrale et une fenêtre de l'explorateur Windows s'ouvrira
-  - Copier tout le projet dans ce dossier
-- Revenir sur le Github Desktop, ajouter le texte `first commit` dans le champs `Summary` et cliquer `Commit to master`
-  - Ensuite cliquer sur `Publish branch`
-  - Visiter le site `username.github.io` et partager le lien avec vos ami.e.s!
+- Allez sur le site [GitHub](https://github.com/)
+  - Connectez-vous avec votre compte.
+  - Si vous n'avez pas de compte GitHub :
+    - Créez un compte.
+    - Validez votre inscription avec le lien reçu dans votre boîte email.
+- Téléchargez [GitHub Desktop](https://desktop.github.com/), installez-le et connectez-vous à cette application avec vos identifiants GitHub.
+- Revenez sur GitHub dans votre navigateur et cliquez sur l'icône "+" en haut à droite et cliquez sur `New repository`.
+  - Dans le champ `Repository name`, écrivez `<username>.github.io` où `<username>` sera le nom de votre compte GitHub (le même qui apparaît dans la partie `Owner`).
+  - Pas de `description` nécessaire.
+  - Gardez la visibilité en `Public`.
+  - Laissez la case `Initialize this repository with a README` décochée.
+  - Cliquez sur `Create repository`.
+- Une fois créée, une nouvelle page s'affichera et cliquez sur le bouton à gauche `Set up in desktop` et l'application GitHub Desktop va s'ouvrir.
+  - Cliquez sur le lien `Open this repository` dans la fenêtre centrale et une fenêtre de l'explorateur Windows s'ouvrira.
+  - Copiez tout votre projet dans ce dossier.
+- Revenez sur GitHub Desktop, ajoutez le texte `First commit` dans le champ `Summary` et cliquez sur `Commit to master`.
+  - Cliquez sur `Publish branch`.
+  - Visitez le site `<username>.github.io` avec votre navigateur et partagez le lien avec vos ami.e.s !
