@@ -4,6 +4,45 @@
 
 **Il faut suivre les instructions telles quelles. Une fois le CV fini, vous pourrez changer le CV avec votre texte et votre photo.**
 
+## Liens vers les étapes
+
+  - [Étape 1 - Structure HTML de base](#%c3%89tape-1---structure-html-de-base)
+    - [Vérification - Étape 1](#v%c3%a9rification---%c3%89tape-1)
+  - [Étape 2 - Métadonnées](#%c3%89tape-2---m%c3%a9tadonn%c3%a9es)
+    - [Vérification - Étape 2](#v%c3%a9rification---%c3%89tape-2)
+  - [Étape 3 - Structure CSS](#%c3%89tape-3---structure-css)
+    - [Vérification - Étape 3](#v%c3%a9rification---%c3%89tape-3)
+  - [Étape 4 - Liens de navigation interne](#%c3%89tape-4---liens-de-navigation-interne)
+    - [Vérification - Étape 4](#v%c3%a9rification---%c3%89tape-4)
+  - [Étape 5 - Style des liens de navigation interne](#%c3%89tape-5---style-des-liens-de-navigation-interne)
+    - [Vérification - Étape 5](#v%c3%a9rification---%c3%89tape-5)
+  - [Étape 6 - En-tête du CV](#%c3%89tape-6---en-t%c3%aate-du-cv)
+    - [Vérification - Étape 6](#v%c3%a9rification---%c3%89tape-6)
+  - [Étape 7 - Style de l'en-tête](#%c3%89tape-7---style-de-len-t%c3%aate)
+    - [Vérification - Étape 7](#v%c3%a9rification---%c3%89tape-7)
+  - [Étape 8 - Présentation de la personne](#%c3%89tape-8---pr%c3%a9sentation-de-la-personne)
+    - [Vérification - Étape 8](#v%c3%a9rification---%c3%89tape-8)
+  - [Étape 9 - Style de la présentation](#%c3%89tape-9---style-de-la-pr%c3%a9sentation)
+    - [Vérification - Étape 9](#v%c3%a9rification---%c3%89tape-9)
+  - [Étape 10 - Expériences professionnelles (Partie 1/2)](#%c3%89tape-10---exp%c3%a9riences-professionnelles-partie-12)
+    - [Vérification - Étape 10](#v%c3%a9rification---%c3%89tape-10)
+  - [Étape 11 - Expériences professionnelles (Partie 2/2)](#%c3%89tape-11---exp%c3%a9riences-professionnelles-partie-22)
+    - [Vérification - Étape 11](#v%c3%a9rification---%c3%89tape-11)
+  - [Étape 12 - Style des expériences professionnelles](#%c3%89tape-12---style-des-exp%c3%a9riences-professionnelles)
+    - [Vérification - Étape 12](#v%c3%a9rification---%c3%89tape-12)
+  - [Étape 13 - Formations](#%c3%89tape-13---formations)
+    - [HTML pour la section _Formations_](#html-pour-la-section-formations)
+    - [CSS pour la section _Formations_](#css-pour-la-section-formations)
+    - [Vérification - Étape 13](#v%c3%a9rification---%c3%89tape-13)
+  - [Étape 14 - Passions](#%c3%89tape-14---passions)
+    - [Vérification - Étape 14](#v%c3%a9rification---%c3%89tape-14)
+  - [Étape 15 - Bas de page](#%c3%89tape-15---bas-de-page)
+    - [Vérification - Étape 15](#v%c3%a9rification---%c3%89tape-15)
+  - [Étape 16 - Style du bas de page](#%c3%89tape-16---style-du-bas-de-page)
+    - [Vérification - Étape 16](#v%c3%a9rification---%c3%89tape-16)
+  - [Étape 17 - Personnalisation du CV](#%c3%89tape-17---personnalisation-du-cv)
+  - [Étape 18 - Publication du CV sur Internet](#%c3%89tape-18---publication-du-cv-sur-internet)
+
 ## Étape 1 - Structure HTML de base
 
 **But de l'étape :** Construire une base valide pour votre document HTML.
@@ -612,7 +651,7 @@ Dans le fichier `style.css` :
 ![footer](./assets/etape_footer_css.png)
 ![footer](./assets/etape_footer_css_desktop.png)
 
-## Vérification
+### Vérification - Étape 16
 
 Avant de passer à l'étape suivante, vérifiez que la page ressemble aux images en version mobile (haut) et desktop (bas). Si non, appelez un assistant ou regardez la solution pour vous aider.
 
