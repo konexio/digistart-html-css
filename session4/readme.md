@@ -18,8 +18,7 @@
 
 ### Partie 1
 
-- Dans le dossier `session4`, créer un fichier `style.css` qui contiendra votre code CSS.
-- Dans l'élément `<head>` de `index.html`, ajouter la balise permettant de relier ce nouveau fichier CSS au document HTML.
+- Dans l'élément `<head>` de `index.html`, ajouter la balise permettant de relier le fichier CSS "style.css" au document HTML.
 
 ### Partie 2
 
@@ -28,25 +27,34 @@
 
 ### Partie 3
 
-- Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document.
+- Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 - Écrire des règles pour que la largeur (`width`) et la hauteur (`height`) de l'élément `<nav>` soient à `70` pixels.
 - Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
 - Écrire les règles suivantes pour les éléments `<ul>` à l'intérieur du `<nav>` :
-  - Des marges intérieures égales à `24` pixels.
+  - Des marges intérieures égales à `20` pixels.
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 
 ### Partie 4
 
-Dans cette partie, nous allons changer le `<nav>` en "conteneur flexible" pour que le titre `<h2>` et la liste `<ul>` soient sur la même ligne malgré leur affichage de type `block`.
+Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
+en ligne malgrés leur affichage de type `block`.
+(pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
 
-- Écrire une règle pour changer l'affichage (`display`) de l'élément `<nav>` en `flex` (pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
-- Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche** des éléments `<li>` enfants de l'élément `<nav>`.
+Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
+aux éléments <nav>` et `<ul>` dans la page html.
+  
+- Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
+  - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
+  - Écrire une règle pour ajouter une marge intérieure de `20` pixels
+- Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
+
+Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
+Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
+
 - Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
-
-Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
 
 ### Partie 5
 
@@ -61,10 +69,13 @@ Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https:/
 
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
 
-- Écrire les règles nécessaires pour aligner au centre les paragraphes et les images.
+- Écrire les règles nécessaires pour aligner au centre les paragraphes et les images. Une façon de centrer les images est de les afficher en block:
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
 ### Bonus 2
 
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
 
-- Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
+- Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus. Rechercher l'attribut "text-decoration".
