@@ -43,9 +43,8 @@ Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "co
 en ligne malgrés leur affichage de type `block`.
 (pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
 
-Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
+- Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
 aux éléments `<nav>` et `<ul>` dans la page html.
-  
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
