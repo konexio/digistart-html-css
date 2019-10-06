@@ -49,7 +49,7 @@ aux éléments `<nav>` et `<ul>` dans la page html.
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
-- Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
+- Écrire une règle pour que l'élément `<h2>` enfant de `<nav>` aient une marge intérieure de 15px.
 
 Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
 Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
