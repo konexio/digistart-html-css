@@ -68,10 +68,10 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
 
-- Écrire les règles nécessaires pour aligner au centre les paragraphes et les images. Une façon de centrer les images est de les afficher en block:
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+- Écrire les règles nécessaires pour aligner au centre les paragraphes et les images. Une façon de centrer les images est de les afficher en block: <br>
+	display: block;<br>
+	margin-left: auto;<br>
+	margin-right: auto;<br>
 
 ### Bonus 2
 
