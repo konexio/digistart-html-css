@@ -1,3 +1,37 @@
-html {
-    background-color: pink;
+div {
+    background-color:grey;
+  }
+
+p {
+    color: red;
+}
+
+img {
+    border: 4px solid;
+    border-color: black;
+
+}
+
+.contenu-mixte p{
+    text-align: right;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#section-1{
+    color: blue;
+}
+
+#section-2{
+     color: orange;
+}
+
+#section-3 {
+     color: purple;
+}
+
+#section-3 p{
+    color:black;
+    text-align: justify;
+    background-color: white;
 }

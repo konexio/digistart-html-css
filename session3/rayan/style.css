@@ -1,6 +1,36 @@
 
-/* Style */
+div{
+    background-color: gray;
+}
 
-html {
-    background-color: pink;
+
+
+
+
+#section-1{
+
+color: blue
+
+}
+
+#section-2{
+
+    color: orange;
+}
+
+#section-3{
+
+color: purple;
+}
+
+#contenu-mixte p{
+    text-align: center;
+}
+
+#section-3{
+text-align: center;
+}
+#section-3 p{
+color: black;
+
 }

@@ -1,6 +1,28 @@
+div {
+    background-color: grey;
+}
 
-/* Style */
+.contenu-mixte p {
+    color: red;
+}
 
-html {
-    background-color: pink;
+img {
+    border: 6px black solid;
+}
+
+
+#section-1 {
+    color:blue;
+}
+
+#section-2 {
+    color: orange;
+}
+
+#section-3 {
+    color: purple;
+}
+
+.contenu-mixte p {
+    text-align:right;
 }

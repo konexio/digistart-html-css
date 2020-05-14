@@ -19,7 +19,7 @@ Ajoutez le code ci-dessous dans `style.css` pour vérifier que tout fonctionne b
 
 ```css
 * {
-  background: red;
+  back: red;
 }
 ```
 

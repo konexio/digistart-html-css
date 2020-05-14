@@ -1,6 +1,34 @@
 
 /* Style */
 
-html {
-    background-color: rgb(192, 235, 255);
+div{
+background-color: grey;
+}
+
+p{
+color: red
+}
+img{
+border: 4px black solid;
+}
+#section-1{
+color: blue;
+}
+
+#section-2{
+    color: orange;
+}
+
+#section-3{
+    color: violet;
+}
+
+.contenu-mixte p{
+text-align: right;
+}
+
+#section-3 p{
+text-align: justify;
+color: black;
+background-color: white;
 }
