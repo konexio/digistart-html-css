@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Cours 4 CSS - Ajouter des styles à une page HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <nav>
+    <nav class="display">
       <h2>Mes vacances de rêve</h2>
-      <ul>
+      <ul class="display">
         <li>
           <a href="#ville">Une grande ville</a>
         </li>
@@ -22,17 +23,23 @@
     <section id="ville">
       <h3>Ville</h3>
       <p>Le texte, le texte, le texte, le texte.</p>
-      <img src="./images/ville.jpg" alt="Une photo de ville" />
+      <div class="foto">
+        <img src="./images/ville.jpg" alt="Une photo de ville" />
+      </div>
     </section>
     <section id="montagne">
       <h3>Montagne</h3>
       <p>Le texte, le texte, le texte, le texte.</p>
-      <img src="./images/montagne.jpg" alt="Une photo de montagne" />
+      <div class="foto">
+        <img src="./images/montagne.jpg" alt="Une photo de montagne" />
+      </div>
     </section>
     <section id="espace">
       <h3>Grands espaces</h3>
       <p>Le texte, le texte, le texte, le texte.</p>
-      <img src="./images/espace.jpg" alt="Une photo de point d'observation" />
+      <div class="foto">
+        <img src="./images/espace.jpg" alt="Une photo de point d'observation" />
+      </div>
     </section>
   </body>
 </html>

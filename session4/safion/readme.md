@@ -28,7 +28,7 @@
 ### Partie 3
 
 - Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
-- Écrire des règles pour que la largeur (`width`) et la hauteur (`height`) de l'élément `<nav>` soient à `70` pixels.
+- Écrire des règles pour que la largeur (`width`) et la hauteur (`height`) de l'éléme nt `<nav>` soient à `70` pixels.
 - Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
@@ -39,18 +39,18 @@
 
 ### Partie 4
 
-Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
+Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés
 en ligne malgrés leur affichage de type `block`.
 (pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
 
-- Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
-aux éléments `<nav>` et `<ul>` dans la page html.
+- Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe
+  aux éléments `<nav>` et `<ul>` dans la page html.
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 - Écrire une règle pour que l'élément `<h2>` enfant de `<nav>` aient une marge intérieure de 15px.
 
-Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
+Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB).
 Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
 
 - Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
@@ -69,9 +69,9 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
 
 - Écrire les règles nécessaires pour aligner au centre les paragraphes et les images. Une façon de centrer les images est de les afficher en block: <br>
-	display: block;<br>
-	margin-left: auto;<br>
-	margin-right: auto;<br>
+  display: block;<br>
+  margin-left: auto;<br>
+  margin-right: auto;<br>
 
 ### Bonus 2
 
