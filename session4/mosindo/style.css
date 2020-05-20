@@ -29,7 +29,7 @@ h2 {
   padding: 0px;
 }
 
-/* 
+/*
 - Écrire les règles suivantes pour les éléments `<ul>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `20` pixels.
   - Des marges extérieures égales à `0` pixel.
@@ -42,11 +42,11 @@ nav ul {
 }
 
 /*
-Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
+Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés
 en ligne malgrés leur affichage de type `block`.
 (pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
 
-Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
+Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe
 aux éléments <nav>` et `<ul>` dans la page html.
 */
 .container h2,
@@ -71,7 +71,7 @@ nav h2 {
   padding: 15px;
 }
 /*
-Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
+Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB).
 Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
 
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
@@ -108,17 +108,19 @@ Une façon de centrer les images est de les afficher en block:
 	margin-left: auto;
 	margin-right: auto;
 */
-P{
+p{
   text-align: center;
 }
 img{
   display: block;
 	margin-left: auto;
-	margin-right: auto;
+  margin-right: auto;
+}
 /*
 Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
 Rechercher l'attribut "text-decoration"
 */
 a:hover {
   text-decoration: none;
+  color:rgb(4, 117, 186)
 }

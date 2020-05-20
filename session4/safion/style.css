@@ -24,7 +24,7 @@ h3 {
 Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
-  (J'ai déplacé les commentaires pour mieux voir où tu en étais :) 
+  (J'ai déplacé les commentaires pour mieux voir où tu en étais :)
 */
 
 nav h2 {
@@ -32,7 +32,7 @@ nav h2 {
   padding: 0px;
 }
 
-/* 
+/*
 - Écrire les règles suivantes pour les éléments `<ul>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `20` pixels.
   - Des marges extérieures égales à `0` pixel.
@@ -46,33 +46,43 @@ nav ul {
   font-size: 16px;
 }
 /*
-Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
+Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés
 en ligne malgrés leur affichage de type `block`.
 (pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
 
-Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
+Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe
 aux éléments <nav>` et `<ul>` dans la page html.
 */
-.container {
+.flex-display{
   display: flex;
+  flex-direction: row;
+
 }
 /*
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 */
-
+nav li{
+  margin: 15px;
+  padding: 20px;
+}
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
+nav h2{
+padding: 15px;
+}
 
 /*
-Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
+Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB).
 Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
 
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
 */
-
+#ville h3{
+  background-color: rgb(255, 96, 96);
+}
 /*
 Écrire une règle pour que les images aient une largeur égale à `300` pixels.
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
