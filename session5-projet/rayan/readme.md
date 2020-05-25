@@ -93,7 +93,7 @@ Avant de passer à l'étape suivante, allez sur le navigateur, rechargez la page
 ```html
 <head>
   <meta charset="utf8" />
-  <title>CV de Camille</title>
+  <title>CV de camille</title>
 </head>
 ```
 

@@ -42,3 +42,46 @@ img {
     border-radius: 75px;
     box-shadow: 3px 3px 6px rgb(140,140,140);
 }
+section {
+    padding: 40px
+}
+
+#xp ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#xp li {
+    margin-bottom: 10px;
+}
+#xp aside {
+    float: right;
+}
+#education ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#education li {
+    margin-bottom: 10px;
+}
+#education aside {
+    float: right;
+}
+footer {
+    padding: 40px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.links {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 390px;  
+}
+.nom de Société{
+ font-size: 300px;
+}
+

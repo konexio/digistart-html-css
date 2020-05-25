@@ -1,4 +1,4 @@
-﻿# Sessions 5 à 8 : Écrire un CV en HTML et CSS pour le publier en ligne
+﻿uu# Sessions 5 à 8 : Écrire un CV en HTML et CSS pour le publier en ligne
 
 ## Attention
 
