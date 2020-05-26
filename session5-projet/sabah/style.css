@@ -81,7 +81,8 @@ footer ul {
     display: inline-block;
     width: 390px;  
 }
-.nom de Société{
- font-size: 300px;
+h5 {
+ font-size: 15px;
+ font-family: bold;
+ display: flex;
 }
-

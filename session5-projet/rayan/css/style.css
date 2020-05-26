@@ -20,5 +20,11 @@ nav h2 {
 }
 
 nav ul {
-
+display: flex;
+margin: 0px;
+padding: 20px;
+list-style: none;
+}
+nav li {
+    padding-left: 15px;
 }
