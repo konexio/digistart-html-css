@@ -1,45 +1,39 @@
 body {
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 nav {
-height: 70px;
+height: 50px;
 display: flex;
 }
 .secondary-block {
-    color: white;
-    background : rgb(4,117,186);
+    color: black;
+    background : lightblue;
     }
 a {
     color: white;
 }
-nav h2 {
-    margin:0;
-    padding: 20px 0 20px 15px;
-}
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 24px;
-    list-style: none;
+nav ul a {
+    color:rgb(4, 117, 186);
 }
 nav li{
-    margin-left: 15px;
+    margin-left: 80px;
 }
 header {
-    text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 .content {
     max-width: 800px;
     margin: 0px;
 }
-header h2{
-    color: rgb(4, 117, 186)
+header h1, h2{
+    font-size: 15px;
+    color: black;
+    margin-left: 280px;
 }
 img {
-    width: 150px;
-    border-radius: 75px;
+    width: 100px;
+    border-radius: 40px;
     box-shadow: 3px 3px 6px rgb(140,140,140);
 }
 section {
@@ -79,10 +73,33 @@ footer ul {
 .links {
     margin-bottom: 25px;
     display: inline-block;
-    width: 390px;  
+    width: 390px;
 }
-h5 {
- font-size: 15px;
- font-family: bold;
- display: flex;
+.box {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+h3, h4 {
+    text-decoration: underline;
+    font-size: 15px;
+}
+.pic {
+    float: left;
+}
+.italique{
+    font-style: italic;
+}
+.logo{
+    width: 55px;
+}
+
+.diplôme {
+    float:left;
+    width: 150px;
+    padding-right: 10px;
+}
+
+.box aside{
+float: right;
 }

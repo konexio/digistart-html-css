@@ -4,12 +4,12 @@ body{
  }
 
  a {
-    color: rgb(70, 52, 231);
+    color: rgb(0, 0, 0);
   }
   
   .secondary-block {
     color: rgb(255, 255, 255);
-    background-color: rgb(250, 84, 200)
+    background-color: rgb(84, 161, 250)
   }
   
   nav {

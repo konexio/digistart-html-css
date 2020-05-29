@@ -1,30 +1,125 @@
 body {
-  font-family: Arial;
-  margin: 0;
-}
-nav { 
+    font-family: Arial;
+    margin: 0;
+  }
+
+
+  a {
+    color: rgb(255, 255, 255);
+  }
+
+  .secondary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
+  }
+
+  nav {
     display: flex;
-    height: 70;
-}
-.secondary-block {
-color:rgb(4, 117, 186);
-}
+    height: 70px;
+  }
 
-a {
- color: white;
-}
+  nav h2 {
+    padding: 20px 0 20px 15px;
+    margin: 0;
+  }
 
-nav h2 {
-    margin: 0px;
-    padding: 20px,0,20px,15;   
-}
+  nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+  }
 
-nav ul {
-display: flex;
-margin: 0px;
-padding: 20px;
-list-style: none;
+  nav li {
+    margin-left: 15px;
+  }
+
+header {
+    text-align: center;
+    padding: 40px;
+  }
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    color: rgb(4, 117, 186);
+  }
+
+  header img {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+  }
+  section {
+    padding: 40px;
+
+  }
+  #xp ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+
+
+  }
+  #xp li {
+    margin-bottom:10px;
+
+  }
+  #xp aside {
+    float: right;
+
+  }
+
+  #education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #education li {
+    margin-bottom: 10px;
+  }
+
+  #education aside {
+    float: right;
+  }
+
+  footer {
+
+    padding: 40px;
+  }
+  .links {
+   margin-bottom: 25px;
+   width: 390px;
+   display:inline-block;
+  }
+
+ footer ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+ }
+
+ .content h3 {
+   text-align: center;
+ }
+ #Passion h3 {
+
+  color: rgb(4, 117, 186);
+ }
+#xp h3 {
+  color: rgb(4, 117, 186);
 }
-nav li {
-    padding-left: 15px;
+nav li :hover {
+  color: rgb(4, 117, 186);
+  text-decoration: none;
+
+}
+footer li :hover {
+  color: rgb(4, 117, 186);
+  text-decoration: none;
+
 }

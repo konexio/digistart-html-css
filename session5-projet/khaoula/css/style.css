@@ -88,3 +88,13 @@ margin-bottom: 10px;
      width: 390px;
      display: inline-block;
  }
+ nav a:hover{
+    color: aqua;
+    text-decoration: none;
+     }
+ section img{
+    border-radius: 50% / 50%;
+    box-shadow:6px 6px 9px rgb(46, 45, 45);
+    padding: 2px;
+    margin: 45px;
+}

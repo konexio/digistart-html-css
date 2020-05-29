@@ -1,230 +1,227 @@
 /*  welcome page*/
 
-
 #background_container{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(https://www.tokkoro.com/picsup/2627974-clouds-4k-free-pc-wallpaper-hd.jpg);
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-      
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://www.tokkoro.com/picsup/2627974-clouds-4k-free-pc-wallpaper-hd.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
 }
 
 #text{
-    text-align: center;
-    color: white;
-    margin: 250px;
-    }
-   
+  text-align: center;
+  color: white;
+  margin: 250px;
+  }
+
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
-	background-color:#f9f9f9;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#666666;
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+box-shadow:inset 0px 1px 0px 0px #ffffff;
+background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+background-color:#f9f9f9;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+cursor:pointer;
+color:#666666;
+font-family: 'Open Sans', sans-serif;
+font-size:15px;
+font-weight:bold;
+padding:6px 24px;
+text-decoration:none;
+text-shadow:0px 1px 0px #ffffff;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
-	background-color:#e9e9e9;
+background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+background-color:#e9e9e9;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+position:relative;
+top:1px;
 }
 
 /*CV*/
 
 body{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 /*Partie du Nav*/
 a {
-    color: rgb(255, 255, 255);
-  }
-  
-  a:hover{
-    text-decoration: none;
-  }
-  
-  .secondary-block {
-    color: rgb(255, 255, 255);
-    background-color: #87CEEB;
-  }
-  
-  nav {
-    display: flex;
-    height: 90px;
-  }
-  
-  nav h2 {
-    padding: 20px 0 20px 15px;
-    margin: 0;
-  }
-  
-  nav ul {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    padding: 24px;
-  }
-  
-  nav li {
-    margin-left: 15px;
-  }
-  ```
-/* partie du header*/  
-header {
-    text-align: center;
-    padding: 100;
-  }
-  
-  .content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
+  color: rgb(255, 255, 255);
+}
 
-  header h1 {
-    text-align: center;
-  }
-  
-  header h2 {
-    color: rgb(4, 117, 186);
-    text-align: center;
-  }
-  
-  header img {
-    width: 150px;
-    border-radius: 75px;
-    box-shadow: 3px 3px 6px rgb(170, 170, 170);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-  }
+a:hover{
+  text-decoration: none;
+}
+
+.secondary-block {
+  color: rgb(255, 255, 255);
+  background-color: #87CEEB;
+}
+
+nav {
+  display: flex;
+  height: 90px;
+}
+
+nav h2 {
+  padding: 20px 0 20px 15px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 24px;
+}
+
+nav li {
+  margin-left: 15px;
+}
+```
+/* partie du header*/
+header {
+  text-align: center;
+  padding: 100;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h2 {
+  color: rgb(4, 117, 186);
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
 /*section profil*/
 section {
-    padding: 40px;
-  }
+  padding: 40px;
+}
 #profile{
-  text-align: center;
+text-align: center;
 }
 /*section experience professionnel*/
 #xp ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 #xp li {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #xp aside {
-    float: right;
-  }
+  float: right;
+}
 #xp img{
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
+height: 150px;
+width: 150px;
+border-radius: 50px;
 }
 /*section education*/
 #education ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 #education li {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #education aside {
-  float: right;
+float: right;
 }
 
 #education img{
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
+height: 150px;
+width: 150px;
+border-radius: 50px;
 }
 
 /*section passion*/
 #passion{
-  text-align: center;
+text-align: center;
 }
 
 #passion img{
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
+height: 150px;
+width: 150px;
+border-radius: 50px;
 }
 
 /*footer*/
 footer {
-    display: flex;
-    padding: 40px;
-  }
-  
-  footer ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-around;
-  }
-  
-  .links {
-    margin-bottom: 25px;
-    display: inline-block;
-    width: 390px;
-  }
+  display: flex;
+  padding: 40px;
+}
 
-  footer li img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-    justify-content: space-around;
-    width: 40px;
-    height: 40px; 
-    text-align: center;
-    border-radius: 10px;
-    }
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.links {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 390px;
+}
+
+footer li i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+  }
 
 /*Contact*/
 .email {
-  margin-bottom: 16px;
+margin-bottom: 16px;
 }
 .form {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
 fieldset{
-    width: 500px;
-    height: 150px;
+  width: 500px;
+  height: 150px;
 }
 .form-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .email,.message {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }

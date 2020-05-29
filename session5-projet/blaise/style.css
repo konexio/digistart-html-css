@@ -1,26 +1,28 @@
 body {
     font-family: Arial;
-    margin: 0;
-    }
-
-nav {
-    display: flex;
-    height: 70px;
+    margin: 0px;
 }
-.secondary-block {
-    color: rgb(255, 255, 255);
-    background-color: rgb(4, 117, 186);}
 
 a {
     color: rgb(255, 255, 255);
-}
+  }
 
-nav h2 {
+  .secondary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186);
+  }
+
+  nav {
+    display: flex;
+    height: 70px;
+  }
+
+  nav h2 {
     padding: 20px 0 20px 15px;
     margin: 0;
-}
+  }
 
-nav ul {
+  nav ul {
     display: flex;
     margin: 0;
     list-style: none;
@@ -32,25 +34,70 @@ nav ul {
   }
 
   header {
-      text-align: center;
-      padding: 40px;
+    text-align: center;
+    padding: 40px;
   }
 
   .content {
-      max-width: 800;
-      margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   header h2 {
-      color: rgb(4, 117, 186);
+    color: rgb(4, 117, 186);
   }
 
   header img {
-      width: 150px;
-      border-radius: 75px;
-      box-shadow: 3px 3px 6px rgb(170, 170, 170);
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
   }
 
-  section {
-      padding: 40px;
-  }
+section{
+    padding: 40px;
+}
+
+#xp ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#xp li{
+    margin-bottom: 10px;
+}
+
+#xp aside{
+    float: right;
+}
+
+#education ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#education li{
+    margin-bottom: 10px;
+}
+
+#education aside{
+    float: right;
+}
+.secondary-block {
+    color: white;
+    background-color: rgb(4, 117, 186);
+}
+footer{
+    padding: 40px;
+}
+footer ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.links{
+    margin-bottom: 25px;
+    width: 390px;
+    display: inline-block;
+}
