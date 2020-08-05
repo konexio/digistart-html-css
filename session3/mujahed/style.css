@@ -1,0 +1,27 @@
+/* Exercice 1 */
+
+.grey{
+    background: grey ;
+    text-align: center ;
+}
+
+p{
+    color: red ;
+}
+.contenu-mixte{
+    text-align: right ;
+}
+#partie1{
+    color: #2C2CFF ;
+}
+#partie2{
+    color: #FFAB11 ;
+}
+#partie3{
+    color: #800080 ;
+}
+.contenu-mixte p{
+    color: #000 ;
+    background: #fff ;
+    font-size: 20px;
+}
