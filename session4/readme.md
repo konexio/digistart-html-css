@@ -28,7 +28,6 @@
 ### Partie 3
 
 - Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
-- Écrire des règles pour que la largeur (`width`) et la hauteur (`height`) de l'élément `<nav>` soient à `70` pixels.
 - Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
