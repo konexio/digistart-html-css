@@ -2,15 +2,26 @@
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
 
+body {
+  margin: 0px;
+}
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
 
+section {
+  padding: 30px;
+}
+
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
+
+h3 {
+  text-align: center;
+}
 
 
 /*
@@ -19,6 +30,10 @@
   - Des marges extérieures égales à `20` pixels.
 */
 
+nav h2 {
+  padding: 0px;
+  margin: 20px;
+}
 
 
 /* 
@@ -27,6 +42,13 @@
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
+
+nav ul {
+  padding: 20px;
+  margin: 0px;
+  list-style: none;
+}
+
 
 
 

@@ -2,12 +2,19 @@ div {
     background-color: grey;
 }
 
+#section-2 div {
+    background-color: rgb(41, 189, 90);
+}
+
 p {
     color: red;
 }
 
 img {
-    border: 4px solid black;
+    border: 14px solid black;
+    margin: 60px;
+    padding: 60px;
+    background-color: white;
 }
 
 .contenu-mixte {
@@ -20,8 +27,13 @@ img {
 }
 
 #section-1 {
-    color: blue;
+    color: rgb(224, 158, 213);
 }
+
+#section-1 p {
+    color: rgb(222, 236, 25);
+}
+
 
 #section-2 {
     color: orange;
@@ -32,7 +44,7 @@ img {
 }
 
 .contenu-mixte p {
-    text-align: right;
+    text-align: center;
 }
 
 #section-3 p {

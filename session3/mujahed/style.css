@@ -1,6 +1,6 @@
-/* Exercice 1 */
+/* Exercice 1 */ 
 
-.grey{
+/* .grey{ 
     background: grey ;
     text-align: center ;
 }
@@ -8,8 +8,8 @@
 p{
     color: red ;
 }
-.contenu-mixte{
-    text-align: right ;
+.grey .contenu-mixte{
+    text-align: end ;
 }
 #partie1{
     color: #2C2CFF ;
@@ -21,7 +21,49 @@ p{
     color: #800080 ;
 }
 .contenu-mixte p{
+    text-align: justify;
     color: #000 ;
     background: #fff ;
     font-size: 20px;
+} */
+
+/* Session 4 */
+body{
+    margin: 0;
+    background: red;
+}
+.ville{
+    padding: 30px;
+    background: #0575BA;
+}
+.ville h1 {
+    text-align: center;
+}
+.ville img {
+    margin: 25px;
+    border-radius: 20px;
+    height: 250px;
+}
+.monta {
+    padding: 30px;
+}
+.monta h1 {
+    text-align: center;
+}
+.monta img {
+    margin: 25px;
+    border-radius: 20px;
+    height: 250px; 
+}
+.espace {
+    padding: 30px;
+    background: #0575BA;
+}
+.espace h1 {
+    text-align: center;
+}
+.espace img {
+    margin: 25px;
+    border-radius: 20px;
+    height: 250px;   
 }

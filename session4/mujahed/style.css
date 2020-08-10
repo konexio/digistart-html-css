@@ -1,7 +1,5 @@
 /*
-Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
-*/
-
+Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`)
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
@@ -93,5 +91,73 @@ Une façon de centrer les images est de les afficher en block:
 Rechercher l'attribut "text-decoration"
 */
 
+/* Exercice 1 */ 
 
+/* .grey{ 
+    background: grey ;
+    text-align: center ;
+}
+
+p{
+    color: red ;
+}
+.grey .contenu-mixte{
+    text-align: end ;
+}
+#partie1{
+    color: #2C2CFF ;
+}
+#partie2{
+    color: #FFAB11 ;
+}
+#partie3{
+    color: #800080 ;
+}
+.contenu-mixte p{
+    text-align: justify;
+    color: #000 ;
+    background: #fff ;
+    font-size: 20px;
+} */
+
+/* Session 4 */
+body{
+  margin: 0;
+  background: red;
+}
+.ville{
+  padding: 30px;
+  background: #0575BA;
+}
+.ville h1 {
+  text-align: center;
+}
+.ville img {
+  margin: 25px;
+  border-radius: 20px;
+  height: 250px;
+}
+.monta {
+  padding: 30px;
+}
+.monta h1 {
+  text-align: center;
+}
+.monta img {
+  margin: 25px;
+  border-radius: 20px;
+  height: 250px; 
+}
+.espace {
+  padding: 30px;
+  background: #0575BA;
+}
+.espace h1 {
+  text-align: center;
+}
+.espace img {
+  margin: 25px;
+  border-radius: 20px;
+  height: 250px;   
+}
 
