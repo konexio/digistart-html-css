@@ -4,9 +4,38 @@ margin : 0px;
 }
 
 nav {
-    display : 70px ;
+
+display : flex ; height: 70px ;
+
 }
 
 .secondary-block {
 
+   color : rgb(4, 117, 186) ;
 }
+
+.a {
+color : white ;
+}
+
+nav h2 {
+margin : 0 ;
+
+padding : 20px , 0px , 20px , 15px ;
+
+}
+
+nav ul {
+display : flex ;
+margin : 0 ;
+padding : 24px ;
+list-style : none ;
+}
+
+nav li {
+    margin-left : 15px ;
+}
+
+img {
+    border-radius: 514px;
+    transform: rotate(0deg);
