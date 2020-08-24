@@ -48,3 +48,51 @@ header img {
     border-radius: 75px;
     box-shadow: 3px 3px 6px rgb(170, 170, 170);
 }
+
+section {
+    padding: 40px;
+}
+
+#xp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#xp li {
+  margin-bottom: 10px;
+}
+  
+#xp aside {
+  float: right;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#education li {
+    margin-bottom: 10px;
+}
+  
+#education aside {
+    float: right;
+}
+
+footer {
+    padding: 40px;
+}
+  
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.links {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 390px;
+}

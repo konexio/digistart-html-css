@@ -3,18 +3,19 @@ body {
     margin: 0;
 }
 
-a {
-    color: rgb(255, 255, 255);
+nav {
+    display: flex;
+    height: 70px;
 }
 
 .secondary-block {
     color: rgb(255, 255, 255);
     background-color: rgb(4, 117, 186);
+    border-style: outset;
 }
 
-nav {
-    display: flex;
-    height: 70px;
+a {
+    color: rgb(255, 255, 255);
 }
 
 nav h2 {
@@ -100,5 +101,3 @@ footer ul {
     display: inline-block;
     width: 390px;
 }
-*/
-
