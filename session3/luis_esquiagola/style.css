@@ -1,0 +1,44 @@
+
+div {
+    background-color:grey;
+    }
+
+p   {
+    color:red;
+    }
+
+img {
+    border:4px solid black;
+    } 
+
+.contenu-mixte {
+    text-align: center
+    }
+
+.contenu-texte {
+    font-family : Arial;
+    font-size : 18px;
+    }
+
+#section-1    {
+    color:blue;
+    }
+
+#section-2 {
+    color:orange;
+    }    
+    
+#section-3 {
+    color:purple;
+    }    
+
+.contenu-mixte p {
+     text-align: right
+    }  
+
+#section-3 {
+    text-align: justify
+    }
+
+
+ 

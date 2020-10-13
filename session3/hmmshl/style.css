@@ -1,0 +1,25 @@
+
+p{
+    color: black ;
+    font-family: sans-serif;
+    text-decoration:  underline;
+    
+    }
+    
+    
+ 
+    .contenu-texte {
+        color: blue;
+        }
+    
+
+
+div {
+    background-color: grey ; 
+}
+
+img {
+    border: solid blue ;
+    border-width: 15px;
+    filter: blur(2px) grayscale(10%);
+    } 

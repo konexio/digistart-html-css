@@ -1,0 +1,16 @@
+div {
+    background-color: grey;
+}
+
+p {
+    color: red;
+}    
+
+img {
+    border: thick;
+    border-color: black;
+    border-width: 4px;
+}
+
+.contenu-mixte
+    text-align      

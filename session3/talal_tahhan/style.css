@@ -1,0 +1,12 @@
+div {
+    background-color: grey;
+}
+
+p {
+    color: red;
+}
+
+img {
+    border: solid black;
+    border-width: 4px;
+}
