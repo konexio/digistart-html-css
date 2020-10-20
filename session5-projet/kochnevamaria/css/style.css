@@ -1,0 +1,29 @@
+a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .secondary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186);
+  }
+  
+  nav {
+    display: flex;
+    height: 70px;
+  }
+  
+  nav h2 {
+    padding: 20px 0 20px 15px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
