@@ -347,7 +347,7 @@ Avant de passer à l'étape suivante, vérifiez que tous les textes de l'image s
     <ul>
       <li>Passionée</li>
       <li>Autonome</li>
-      <li>Une bonne journée ne se passe sans un bon livre</li>
+      <li>Une bonne journée ne se passe pas sans un bon livre</li>
     </ul>
   </div>
 </section>
