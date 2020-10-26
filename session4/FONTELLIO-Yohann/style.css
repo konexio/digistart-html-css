@@ -1,17 +1,24 @@
 /*
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
+body {
+  margin: 0px;
+}
 
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
-
+section {
+  padding: 0px;
+}
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
-
+h3 {
+  text-align: center ;
+}  
 
 /*
 Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :

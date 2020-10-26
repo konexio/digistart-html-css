@@ -14,8 +14,6 @@
 
 ## Exercice
 
-**Rappel : Vérifiez régulièrement l'état de la page dans votre navigateur après chaque modification de code.**
-
 ### Partie 1
 
 - Dans l'élément `<head>` de `index.html`, ajouter la balise permettant de relier le fichier CSS "style.css" au document HTML.

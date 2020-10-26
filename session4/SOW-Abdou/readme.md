@@ -8,6 +8,7 @@
 
 [Cliquer ici pour consulter la documentation CSS sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference#Index_des_mots-cl%C3%A9s)
 
+
 ## Résultat attendu pour l'exercice
 
 ![Résultat final](./resultats/resultat-final.png)
@@ -77,3 +78,12 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
 
 - Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus. Rechercher l'attribut "text-decoration".
+
+
+### Bonus 3
+
+**Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
+
+- Ecrire les règles pour qu'en survolant les liens, le fond ne soit plus bleu mais vert.
+
+- Ecrire les règles pour qu'en survolant les liens, les bords de l'élément soit solide et fassent 2px de large.

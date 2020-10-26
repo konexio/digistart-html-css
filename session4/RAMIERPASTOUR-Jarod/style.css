@@ -1,24 +1,30 @@
 /*
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
+body{
+margin: 0%;
 
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
-
-
-/*
+Section {
+padding: 30%;
+}
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
-
-
+H3{
+text-align: centre; 
+}
 /*
 Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
 */
-
+nav h2{
+  padding: 0px;
+  margin: 20px;
+}
 
 
 /* 
@@ -26,9 +32,10 @@
   - Des marges intérieures égales à `20` pixels.
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
-*/
-
-
+*/nav ul{
+  padding: 20px;
+  margin: 0px;
+  list-style: none;
 
 /*
 Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
@@ -39,16 +46,18 @@ en ligne malgrés leur affichage de type `block`.
 aux éléments <nav>` et `<ul>` dans la page html.
 */
 
-
-
+.flexible{
+  display: flex;
+} *
 /*
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 */
-
-
-
+nav li { 
+margin: 0px 0px 0px 15px;
+padding;
+}
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
