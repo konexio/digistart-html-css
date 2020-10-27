@@ -1,108 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>CV de Macha</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+  <meta charset="utf-8" />
+  <!--pour permettre les accents et caractères spéciaux-->
+  <meta name="description" content="CV Marketing specialist, développement Fullstack" />
+  <!--pour les moteurs de recherche-->
+  <title>Développeuse Fullstack</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <header>
-        <div class="content">
-          <h1>Maria KOCHNEVA</h1>
-          <h2>Développeuse fullstack</h2>
-          <img src="camille_martin.png" alt="Photo de Camille MARTIN" />
-        </div>
-    </header>
-    <meta charset="utf-8" />
-
-        <nav class="secondary-block">
-               <ul>
-                  <li><a href="#profile">Profil</a></li>
-                  <li><a href="#xp">Expériences</a></li>
-                  <li><a href="#education">Formations</a></li>
-                </ul>
-        </nav>
-
-        <section id="profile" class="secondary-block">
-          <div class="content">
-            <h3>Présentation</h3>
-            <ul>
-              <li>Passionée</li>
-              <li>Autonome</li>
-              <li>Une bonne journée ne se passe sans un bon livre</li>
-            </ul>
-          </div>
-        </section>
-
-        <section id="xp">
-          <div class="content">
-            <h3>Expériences professionnelles</h3>
-            <div>
-              <aside>2018</aside>
-              <h4>Stagiaire</h4>
-              <ul>
-                <li>Création de sites web</li>
-                <li>Management de projet</li>
-              </ul>
-            </div>
-            <div>
-              <aside>2016-2018</aside>
-              <h4>Bénévole</h4>
-              <ul>
-                <li>Création de sites web</li>
-                <li>Management de projet</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+  <header>
+    <div class="content">
+      <h1>Macha KOCHNEVA</h1>
+      <h2>Développeuse Fullstack </h2>
+      <h6>Français, Anglais, Russe</h6>
+      <a href="https://www.linkedin.com/in/macha-kochneva-87a737114/">
+      <img id="image" src="./images/PhotoPetit.png" alt="Photo"></a>
+    </div>
+    <section id="contact">
+      <a href="https://www.linkedin.com/in/macha-kochneva-87a737114/" target="_blank">Profil Linked In</a>
+      <address>
+        <a href="mailto:kochnevamaria@gmail.com">kochnevamaria@gmail.com</a> </br>
+        Tel : 0684929427
+      </address>
+    </section>
+  </header>
+  
+  <nav>
+    <!--FAUT IL IMBRIQUER DANS HEADER OU DIV-->
+    <a href="#pres">Présentation</a>
+    <a href="#formation">Formation</a>
+    <a href="#xp">Expériences professionnelles</a>
+    <a href="#comptech">Compétences techniques</a>
+  </nav>
 
 
-        <section id="education" class="secondary-block">
-          <div class="content">
-            <h3>Formations</h3>
-            <ul>
-              <li>
-                <aside>2018</aside>
-                Licence
-              </li>
-              <li>
-                <aside>2015</aside>
-                Bac S
-              </li>
-            </ul>
-          </div>
-        </section>
 
-        <section>
-          <div class="content">
-            <h3>Passions</h3>
-            <p>Saut en parachute</p>
-            <p>Bali</p>
-          </div>
-        </section>
+  <!--
+        <pre>            <u>Commentaires apprentissage</u>                  </pre>
+        <p> 
+            une maison de 50m <sup>2</sup> </br>
+            H<sub>2</sub>O </br>
+            balise time <time pubdate="2020-10-13">Octobre 2020</time>  </br>
+            balise pre - pour respecter des espaces entre les mots </br>
+            balises em, b, i, strong sont sémantiques (type inline) ! pour les moteurs de rechecrhe ils sont plus importants que les lautres ! </br>
+            balise cite pour citer </br>
+            balise ul - liste avec un petit point </br>
+        </p>
+
+        <p>
+            <b>LIENS</b> </br>
+            liens ancrés </br>
+            liens complexes: retour en haut de page; sortie du dossier dans l'espace du travail - à commencer par .. ex: <a href="../nom du fichier.html">retour à la page</a> </br>
+            liens imagemap </br>
+        </p>
+
+        <p>
+            <b> BALISES LISTE </b> </br>
+            Les listes sont tjr un peu à la retrait à gauche, pas comme les p collés à gauche </br>
+            balise ul + balise li : non ordonné </br>
+            balise ol + li : ordonné </br>
+
+        <p>
+            <b>BALISES TABLEAU</b> <br>
+            balise table, caption, tr (th pour mots, td pour chiffres) </br>
+            tableau avec fusion : rowspan ou colspan </br>
+            balise thead & tfoot & tbody 
+        </p>
+
+        <p>
+            <b>BALISES INPUT</b> <br>
+            balises input, label  <br>
+            attribut type (submit, reset, checkbox, date, email, url, search, email  etc), id (prenom, telephone, recherche etc), name, value <br>
+            
+            balise select, option, optgroup
+
+        </p>
+        
+        <p>
+            <b>BALISES AUDIO</b> <br>
+            formats audo : OGG, MP3
+            on line convert.com pour transformer
+            balise audio et source 
+            bare de controle attribut controls
+        </p>
+
+        <p>
+            <b>BALISES VIDEO</b> <br>
+            formats video: OGV, MP4, webm <br>
+            balise video <br>
+            attribut controls <br>
+            a.htaccess - pour avoir une meilleure lecture & dire aux navigateurs qu'ils doivent lire les formats suivants : <br>
+            <li>AddType video/ogv .ogv</li>
+            <li>AddType video/mp4 .mp4</li>
+            <li>AddTyoe video/webm .webm</li>
+            <li>AddType audio/ogg .ogg</li>
+        </p>
 
 
-        <footer class="secondary-block">
-          <div class="content">
-            <div class="links">
-              <ul>
-                <li><a href="http://konexio.eu">Voyage</a></li>
-                <li><a href="http://konexio.eu">Tech</a></li>
-              </ul>
-            </div>
-            <div class="links">
-              <ul>
-                <li><a href="http://konexio.eu">LinkedIn</a></li>
-                <li><a href="http://konexio.eu">Twitter</a></li>
-              </ul>
-            </div>
-          </div>
-        </footer>
+        <p> 
+            <b>BALISES STRUCTURANTES</b> <br>
+            Header, footer, dive, artcile, aside
+        </p>
+        -->
+
+
+
+
+
+  <main>
+    <section id="pres">
+      <h3>Présentation</h3>
+      <p>Ayant plusieurs années d'expérience professionnelles dans le marketing opérationnel et digital, j'ai pris
+        l'habitude de travailler avec des outils CRM, bases de données clients, mettre à jour des sites web avec
+        WordPress, rédiger des articles de blog ou encore gérer des campagnes publicitaires sur Facebook et Google. <br>
+        Afin d'être plus autonôme côté backoffice, j'ai décidé d'étendre mes compétences digitales dans le sens plus
+        technique. Après avoir terminé une formation chez Konnexio, je maîtrise aujourd'hui les langages <strong>HTML,
+          CSS, Javascript</strong>. <br> Mon projet ? C'est de poursuivre mon activitié professionnelle dans
+        l'environnement digital et être encore plus efficace grace à mes compétences en développement
+        <strong>Fullstack</strong>!</p>
+
+      <h4>Mes savoir-faires</h4>
+      <ul> Editorial:
+        <li>Français: orthographe, grammaire, syntaxe irreprochables</li>
+        <li>Anglais: maitrise à l'oral et à l'ecrit</li>
+        <li>Contenu : forte appétence pour la création de contenu en anglais et français, production de stratégie et
+          calendrier éditorial (site web, réseaux sociaux, emailing)</li>
+      </ul>
+
+      <ul> SEO:
+        <li>Maitrise des usages, techniques du référencement et rédaction web</li>
+        <li>Optimisation SEO grace aux langages HTML/CSS</li>
+        <li>Réalisation du maillage interne et externe (backlinks)</li>
+      </ul>
+
+      <ul> CRM:
+        <li>Planification et production des envois</li>
+        <li>Intégration du contenu dans le logiciel CRM</li>
+
+      </ul>
+
+      <ul>Réseaux sociaux:
+        <li>Planification et gestion de contenu sur Linkedin, Facebook</li>
+
+      </ul>
+
+      <h4>Maitrise des outils informatiques</h4>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>Wordpress</li>
+        <li>Tracking: Google Analytics</li>
+        <li>Plateforme de gestion campagnes publicitaires écosytème Facebook: Facebook Business Manager </li>
+        <li>CRM: HubSpot, Agile</li>
+
+      </ul>
+
+
+
+    </section>
+
+
+    <section id="formation">
+      <h3>Formation</h3>
+      <ul>
+
+        <li><aside>2020</aside><h4>Konnexio Formation Développeur Fullstack</h4></li>
+        
+        <a class="btn" href="https://www.konexio.eu/competences-code.html">En savoir plus ></a>
+
+        <!-- <aside>2012-2013</aside> -->
+        <li><aside>2012-2013</aside><h4>Ecole Supérieure d’Enseignement au Management d’Entreprises
+          Master spécialisé marketing</h4></li>
+
+          <li><aside>2004-2009</aside><h4>Kazan, Russie
+          Kazan Federal University
+          Master : Langues étrangères, littératures</h4></li>
+        
+
+      </ul>
+
+
+    </section>
+
+
+    <section id="xp">
+      <h3>Expériences professionnelles</h3>
+      <h4>Responsable de Partenaires</h4>
+      <h5>Kamp’n *** - SaaS & Agence en Conseil Digital, Partenaire Facebook & Google, Paris <br>
+        FRANCE, UK, ALLEMAGNE, DANMARK</h5>
+      <p>
+      <ul>
+        <li>Définition & mise en place du plan marketing multicanal : digital, off line, événementiel ;</li>
+        <li>Coordination de production contenu web & print : brochures, blogs, newsletters, réseaux ;</li>
+        <li>Campagnes SEO, campagnes publicitaires sur Facebook ;</li>
+        <li>Rédaction d’articles dans le blog, planning & envois de newsletters (HubSpot) ;</li>
+        <li>Gestion CRM (HubSpot) ;</li>
+        <li>Pilotage & animation d’événements en France & étranger : budget, logistique ; </li>
+        <li>Suivi & animation partenaires technologiques (Facebook, Google etc) : rdv, événements ;</li>
+        <li>Développement de portefeuilles partenaires & gestion de campagnes commerciales ;</li>
+        <li>Gestion administrative & gestion de contrats ; </li>
+      </ul>
+      </p>
+
+
+      <h4>Responsable Relations Entreprises</h4>
+      <h5>ISC Paris ** - Grande Ecole de Commerce, Paris <br>
+        FRANCE et INTERNATIONAL</h5>
+      <p>
+      <ul>
+        <li>Fonction transversale entre les équipes marketing, administrative, informatique, force de vente, logistique
+          ;</li>
+        <li>Définition & mise en place de plan marketing annuel pour le développement de partenariat : digital, off
+          line, événementiel ; </li>
+        <li>Coordination de conception & mise à jour de supports de communication on/off line ;</li>
+        <li>Communication active en interne sur l’évolution & résultats du service ;</li>
+        <li>Gestion de campagnes communication digitale : newsletters, emailings, Linked In ;</li>
+        <li>Gestion CRM (Agile) ;</li>
+        <li>Encadrement de l’organisation d’événements ;</li>
+        <li>Coordination de développement commercial, mise en œuvre, suivi de campagnes commerciales selon la stratégie
+          définie ;</li>
+        <li>Animation de partenaires entreprises existantes, suivi de la bonne exécution des conditions partenariat afin
+          de fidéliser les entreprises à long terme ;</li>
+        <li>Pilotage de propositions commerciales, suivi administratif des contrats, factures ;</li>
+        <li>Reportings hebdomadaires ;</li>
+        <li>Benchmark concurrence & proposition d’indicateurs de progression ;</li>
+        <li>Management d’une assistante administrative & de stagiaire ;</li>
+      </ul>
+      </p>
+
+
+      <h4> Chargée de Promotion des MBA & MSc </h4>
+      <h5> ISC Paris * - Grande Ecole de Commerce, Paris <br>
+        FRANCE et INTERNATIONAL</h5>
+      <p>
+      <ul>
+        <li>Définition & mise en place de plan marketing digital & off line pour la promotion des formations MBA & MSc ;
+        </li>
+        <li>Coordination production contenu & gestion de campagnes digitales : emailings, news letters, sms ;</li>
+        <li>Coordination de conception & mise à jour de supports de communication on line & off line : brochures, site
+          web, en anglais & français ;</li>
+        <li>Gestion de relances & campagnes commerciales : conseil, phoning, presentations etc ;</li>
+        <li>Définition de planning & pilotage d’événements : portes ouvertes, webinaires, salons ;</li>
+        <li>Gestion CRM (Oscar DC) ;</li>
+        <li>Suivi de KPI & rédaction des reportings ;</li>
+      </ul>
+      </p>
+
+      <h4>Coordinatrice Evénementielle </h4>
+      <h5>Plaza Athénée – Palace 5*, Paris</h5>
+      <p>
+      <ul>
+        <li> Mise en place & coordination des événements à forte valeur ajoutée ; </li>
+        <li>Elaboration des propositions & réalisation des devis ; </li>
+        <li>Responsable de la parfaite transmission des dossiers & de l'ensemble des éléments contractés avec le client
+          aux équipes opérationnelles ; </li>
+        <li>Coordination des prestataires externes lors de l’événement, contrôle de la conformité de leur réalisation
+          selon le cahier des charges ; </li>
+        <li>Suivi administratif (bon de commandes, émargement, chevalets, badges…) ; </li>
+        <li>Gestion CRM ; </li>
+        <li>Coordination de l’événement, accueil et présence sur place pour gérer les imprévus et garantir la
+          réalisation de l’événement selon les attentes des clients ; </li>
+      </ul>
+      </p>
+
+      <h4>Chargée Marketing & Commercial </h4>
+      <h5>Tricots-Laure – Atelier de Confection d’articles en maille, Clamart</h5>
+      <p>
+      <ul>
+        <li>Prospection commerciale, suivi des comptes existants ; </li>
+        <li>Media plan : campagnes emailing, news letters (Mailchimp), relations press, réseaux soc ;</li>
+        <li>Création & administration d’un site web via Wordpress & One&One, gestion du contenu (Photoship CS6) ; </li>
+        <li>Reportings hebdomadaires de l’activité commerciale & marketing ;</li>
+      </ul>
+      </p>
+    </section>
+
+
+    <section id="comptech">
+      <h3>Maîtrise des outils informatiques</h3>
+      <p>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+      </p>
+
+
+    </section>
+  </main>
+
+  <footer>
+
+    <a class="totop" href="">Retour vers mon profil</a>
+
+  </footer>
 
 
 </body>
+
+
+
+
+
+
+
+</html>

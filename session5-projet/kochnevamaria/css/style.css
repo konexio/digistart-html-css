@@ -1,98 +1,220 @@
-a {
-    color: rgb(255, 255, 255);
-  }
+/* 
+    couleurs :  adobe color, extraire l'image & identifier ses couleurs
 
-  .secondary-block {
-    color: rgb(255, 255, 255);
-    background-color: rgb(4, 117, 186);
-  }
+    Sélecteurs type : 
+    -balise (body, p..)
+    -classe (.menu)
+    -pseudo classe / éléments
+    -identifiant (#header)
 
-  nav {
-    display: flex;
-    justify-content: center;
-    height: 70px;
-  }
+    Cibler un attribut : 
+    a[title="..."] {...} 
+    a[title~="..."] cibler le mot
+    a[title^="..."] cibler début du mot
+    a[title$="..."] cible la fin du mot
 
-  nav h2 {
-    padding: 20px 0 20px 15px;
-    margin: 0;
-  }
+*/
 
-  nav ul {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    padding: 24px;
-  }
+/*header............................................................................*/
 
-  nav li {
-    margin-left: 15px;
-  }
+body {
+  color: #122617;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.2;
+  background-image: url(../images/geometry.png);
+}
 
-  header {
-    text-align: center;
-    padding: 40px;
-  }
+header {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-image: url(../images/meadow-5648849_1920.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
 
-  .content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
 
-  header h2 {
-    color: rgb(4, 117, 186);
-  }
 
-  header img {
-    width: 150px;
-    border-radius: 75px;
-    box-shadow: 3px 3px 6px rgb(170, 170, 170);
-  }
+h1 {
+  font-size: 30px;
+  color: #f28972;
+  line-height: 20px;
+}
 
-  section {
-    padding: 40px;
-  }
+h2 {
+  font-size: 25px;
+  color: #f28972;
+  line-height: 20px;
+}
 
-  #xp ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+h6 {
+  font-size: 15px;
+  color: #f28972;
+  line-height: 1px;
+}
 
-  #xp li {
-    margin-bottom: 10px;
-  }
+header img {
+  width: 150px;
+  clip-path: ellipse(50% 50%);
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
+  text-align: center;
+}
 
-  #xp aside {
-    float: right;
-  }
+#contact {                                                                                                                   /*!!!!*/  
+  text-align: center;
+  color: #2d593c;
+  line-height: 1.5;
+}
 
-  #education ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+#contact a {
+  color: #2d593c;
+}
 
-  #education li {
-    margin-bottom: 10px;
-  }
+#contact a:hover {
+  color: #f28972;        
+}
 
-  #education aside {
-    float: right;
-  }
 
-  footer {
-    padding: 40px;
-  }
 
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
 
-  .links {
-    margin-bottom: 25px;
-    display: inline-block;
-    width: 390px;
-  }
+
+
+/*nav............................................................................*/
+/*a:links
+a:hover
+a:visited
+a:active  */
+
+/*1. nav ul
+2. nav li 
+3. nav a
+A REVOIR */
+
+
+nav {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: none;
+  display: flex;                /*quand je mets en inline box, ca décale à gauche, PORQUOI????*/
+  justify-content: center;  
+  padding: 10px;                                                                                          /*!!!!*/
+}
+
+
+nav a {
+  display: block;
+  color: #2d593c;
+  text-decoration: none;
+  margin: 10px;
+  opacity: 0.7;
+  padding: 2px;     /*espace entre les mots*/
+}
+
+nav a:hover {
+  color: #f28972;
+}
+
+
+
+
+
+
+
+/*main............................................................................
+sélecteur d'identifiant : # 
+sélecteur de class : . utilisable plusieurs fois dans html
+pseudo class: first-child, last-child, nth-child, first-letter, first-line*/
+
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #2d593c;
+  border-bottom: 3px dotted #f28972;
+}
+
+
+h4, h5 {
+  font-size: 15px;
+}
+
+h4:first-letter {
+  background-color: #2d593c;
+  color: white;
+}
+
+#pres {
+  margin: 10px 150px;
+  background-color: #f28972;
+  padding: 10px 50px;
+  text-indent:                                                                                            /*!comment faire retrait de 1 phrase!!!!*/
+}
+
+#formation {
+  margin: 20px 50px;
+  padding: 10px 150px;
+}
+
+
+#formation aside {
+  float: right;
+}
+
+aside {
+  display: block;
+}
+
+#xp {
+  margin: 20px 100px;
+  padding: 10px 150px;
+}
+
+#xp ul {
+  list-style-type: circle;
+}
+
+#comptech {
+  margin: 20px 100px;
+  padding: 10px 150px;
+}
+
+
+/*boutons.........................................*/
+.btn {
+  display: inline-block; /*élément inline !!!*/
+  text-decoration: none;
+  border: 1px solid #122617;
+  padding: 0px 15px;
+  line-height: 1.5;
+  background-color: #122617;
+  color: white;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #122617;
+}
+
+
+
+
+/*footer.......................................*/
+footer {
+  text-align: center;
+  background-color: #2d593c;
+  padding: 15px;
+  margin-bottom: 0;
+  /*margin-left: 450px;
+  margin-right: 450px;*/
+}
+
+
+.totop {
+  color: #f28972;
+  font-size: 15px;
+  /*line-height: 20px;*/
+  text-align: center;
+}

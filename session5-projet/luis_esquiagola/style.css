@@ -1,16 +1,17 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:  0;
 }
 
 nav {
     display: flex;
     height: 70px;
+   
 }
 
 .secondary-block {
     color: white;
-    background-color: green;
+    background-color: darkslategray;
 }
 
 a {
@@ -25,6 +26,12 @@ nav h2 {
 nav ul  {
     display: flex;
     padding: 24px;
+    margin: 0;
+    list-style: none;
+}
+
+div ul  {
+    padding: 0;
     margin: 0;
     list-style: none;
 }
@@ -57,6 +64,10 @@ section {
     padding:40px;
 }
 
+#passion {
+    padding:0px;
+}
+
 #xp ul {
     padding: 0;
     margin: 0;
@@ -85,16 +96,20 @@ section {
 }
 
 footer {
-    padding: 40px;
+    padding: 0px;
+    background-color: darkslategray;
+    text-align:center
 }
 
 footer ul {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     list-style: none;
+    ;
 }
 .links {
     margin-bottom: 25px;
     width: 390px;
     display: inline-block;
 }
+
