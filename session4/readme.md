@@ -71,7 +71,7 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 	display: block;<br>
 	margin-left: auto;<br>
 	margin-right: auto;<br>
-
+1
 ### Bonus 2
 
 **Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
