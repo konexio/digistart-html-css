@@ -99,3 +99,13 @@ nav li {
       width: 390px;
       display: inline-block;
     }
+
+img:hover {
+  transform: rotate(450deg);
+}
+
+img {
+  transition-property: transform;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}

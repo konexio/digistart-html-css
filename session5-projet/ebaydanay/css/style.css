@@ -3,13 +3,24 @@ body{
   margin: 0;
 }
 
-a {
+footer a {
   color: rgb(255, 255, 255);
 }
 
-.secondary-block {
+a {
+color: currentColor;
+text-decoration: none;
+}
+
+.nav-block{
+  background-color: rgb(6, 125, 181);
   color: rgb(255, 255, 255);
-  background-color: rgb(4, 117, 186);
+ }
+
+
+.secondary-block {
+  color: rgb(0);
+  background-color: (6, 125, 181);
 }
 
 nav {
@@ -31,7 +42,9 @@ nav ul {
 
 nav li {
   margin-left: 15px;
+  font-weight: bold;
 }
+
 header {
   text-align: center;
   padding: 40px;
@@ -40,16 +53,20 @@ header {
 .content {
   max-width: 800px;
   margin: 0 auto;
+
 }
 
 header h2 {
   color: rgb(4, 117, 186);
 }
 
-header img {
-  width: 150px;
-  border-radius: 75px;
-  box-shadow: 3px 3px 6px rgb(170, 170, 170);
+header .content img {
+border-radius: 75px;
+box-shadow: 3px 3px 6px rgb(170, 170, 170);
+width: 100%;
+max-width: 150px;
+height: auto;
+}
 }
 
 section {
@@ -83,7 +100,7 @@ float: right;
     }
 
 footer{
-padding: 40px;
+padding: 20px;
 }
 
 footer ul{
@@ -92,16 +109,84 @@ padding: 0;
 list-style: none;
 }
 
+footer li{
+padding: 5px;
+margin: 0;
+
+}
+
 .links {
 list-style: none;
 margin-bottom: 25px;
 display: inline-block;
 width: 390px;
-
 }
 
-.retour{
-  color: black;
+section h3{
+background-color: rgb(6, 125, 181);
+text-align: none;
+color: rgb(255, 255, 255);
+padding: 5px;
+}
+
+#xp h4{
+margin-bottom: 5px;
+text-decoration: underline grey;
+}
+
+#education li{
+margin-bottom: 10px;
+}
+
+/*img:hover {
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}*/
+
+br {
+margin-bottom: 2px;
+margin-top: 5px;
+}
+
+
+footer{
+background-color: rgb(6, 125, 181);
+text-align: none;
+color: rgb(255, 255, 255);
+padding: 5px;
+}
+
+nav img {
+ width: 150px;
+}
+
+header .nom img {
+width: 100%;
+max-width: 300px;
+height: auto;
+}
+
+#top{
   text-align: right;
+  margin: 10px;
+  padding: 10px;
+  color: black;
 }
 
+#profile{
+text-align: center;
+border:double;
+box-shadow: 3px 3px 10px rgb(170, 170, 170);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#profile h3{
+text-decoration-line: underline;
+color: rgb(6, 125, 181);
+background-color: rgb(255, 255, 255);
+}
+
+#copy{
+text-align: left;
+font-size: 12px;
+}

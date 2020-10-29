@@ -1,14 +1,14 @@
-/* 
+/*
     couleurs :  adobe color, extraire l'image & identifier ses couleurs
 
-    Sélecteurs type : 
+    Sélecteurs type :
     -balise (body, p..)
     -classe (.menu)
     -pseudo classe / éléments
     -identifiant (#header)
 
-    Cibler un attribut : 
-    a[title="..."] {...} 
+    Cibler un attribut :
+    a[title="..."] {...}
     a[title~="..."] cibler le mot
     a[title^="..."] cibler début du mot
     a[title$="..."] cible la fin du mot
@@ -16,13 +16,13 @@
 */
 
 /*header............................................................................*/
-
 body {
   color: #122617;
   font-size: 15px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.2;
   background-image: url(../images/geometry.png);
+  margin: 0px;
 }
 
 header {
@@ -32,26 +32,39 @@ header {
   background-image: url(../images/meadow-5648849_1920.jpg);
   background-size: cover;
   background-position: bottom;
+  /*
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  */
+  /*background-color: #122617; */
 }
 
-
+/*header:hover {
+  opacity: 1;
+}*/
 
 h1 {
   font-size: 30px;
   color: #f28972;
   line-height: 20px;
+  margin-block-start: 30px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #f28972;
   line-height: 20px;
+  margin-block-start: 20px;
 }
 
 h6 {
   font-size: 15px;
   color: #f28972;
   line-height: 1px;
+  margin-block-start: 25px;
+
 }
 
 header img {
@@ -61,7 +74,7 @@ header img {
   text-align: center;
 }
 
-#contact {                                                                                                                   /*!!!!*/  
+#contact {                                                                                                                   /*!!!!*/
   text-align: center;
   color: #2d593c;
   line-height: 1.5;
@@ -72,7 +85,7 @@ header img {
 }
 
 #contact a:hover {
-  color: #f28972;        
+  color: #f28972;
 }
 
 
@@ -87,7 +100,7 @@ a:visited
 a:active  */
 
 /*1. nav ul
-2. nav li 
+2. nav li
 3. nav a
 A REVOIR */
 
@@ -97,7 +110,7 @@ nav {
   font-weight: bold;
   font-style: none;
   display: flex;                /*quand je mets en inline box, ca décale à gauche, PORQUOI????*/
-  justify-content: center;  
+  justify-content: center;
   padding: 10px;                                                                                          /*!!!!*/
 }
 
@@ -122,7 +135,7 @@ nav a:hover {
 
 
 /*main............................................................................
-sélecteur d'identifiant : # 
+sélecteur d'identifiant : #
 sélecteur de class : . utilisable plusieurs fois dans html
 pseudo class: first-child, last-child, nth-child, first-letter, first-line*/
 
@@ -146,15 +159,20 @@ h4:first-letter {
 }
 
 #pres {
-  margin: 10px 150px;
+  margin: 0px 150px;
   background-color: #f28972;
   padding: 10px 50px;
   text-indent:                                                                                            /*!comment faire retrait de 1 phrase!!!!*/
 }
 
 #formation {
-  margin: 20px 50px;
+  margin: 20px 100px;
   padding: 10px 150px;
+}
+
+#formation ul {
+  list-style-type: circle;
+  padding-left: 15px;
 }
 
 
@@ -186,11 +204,11 @@ aside {
   display: inline-block; /*élément inline !!!*/
   text-decoration: none;
   border: 1px solid #122617;
-  padding: 0px 15px;
+  padding: 0px 5px;
   line-height: 1.5;
   background-color: #122617;
   color: white;
-  margin: 10px;
+  margin: 0px;
 }
 
 .btn:hover {
@@ -212,9 +230,10 @@ footer {
 }
 
 
-.totop {
+#content {
   color: #f28972;
   font-size: 15px;
   /*line-height: 20px;*/
   text-align: center;
+
 }
