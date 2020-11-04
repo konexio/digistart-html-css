@@ -1,0 +1,15 @@
+p{ 
+    color:red;
+}
+
+
+
+div{
+    background-color: grey;
+}
+
+
+img{
+    min-width: 4px;
+    border:medium dashed green;
+}

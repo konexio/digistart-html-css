@@ -1,4 +1,31 @@
-body{
-font-family: Arial ;
-margin: 0px;
+nav {
+    display:flex;
+    height: 70px;
+}        
+
+secondary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186);
 }
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+nav h2{
+    margin: 0px;
+    padding: 24px 0px 20px 15px;
+}                
+
+nav ul{
+     display:flex;
+     margin: 0px;
+     padding: 24px;
+     list-style:none;
+}
+
+nav li{
+    margin-left:15px;
+}
+
+                                                                            

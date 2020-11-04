@@ -1,0 +1,15 @@
+p{
+   color: red; 
+}
+h1{
+    background-color:palegreen ;
+    color: white;
+    text-align:center ;
+}
+div{
+    min-width: 205;
+    background-color: grey;
+}
+img{
+    border: 4px;
+}

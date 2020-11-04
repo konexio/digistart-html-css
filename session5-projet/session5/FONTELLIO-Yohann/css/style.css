@@ -1,0 +1,34 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+}
+
+.secondary-block {
+  background-color: rgb(4,117,186);
+  color: white;
+}
+
+a {
+  color: rgb(255,255,255);
+}
+
+nav h2 {
+  margin:0;
+  padding: 20px, 0px, 20px, 15px;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 24px;
+    list-style: none;
+}
