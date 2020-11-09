@@ -43,3 +43,87 @@ nav li {
     max-width: 800px;
     margin: 0 auto;
 }
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h2 {
+  color: rgb(4, 117, 186);
+}
+
+header img {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+section {
+  padding : 40 px;
+
+}
+#xp ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+#xp li{
+   margin: 0px 0px 10px 0px;
+
+}
+
+#xp aside {
+  float: right;
+}
+
+#education aside {
+  float : right;
+
+}
+#xp ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#xp li {
+  margin-bottom: 10px;
+}
+
+#xp aside {
+  float: right;
+}
+#education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#education li {
+  margin-bottom: 10px;
+}
+
+#education aside {
+  float: right;
+}
+footer {
+  padding: 40px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 390px;
+  display: inline-block;
+}

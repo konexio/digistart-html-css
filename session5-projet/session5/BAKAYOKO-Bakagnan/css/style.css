@@ -2,8 +2,13 @@ html{
     margin: 0;
 }
 
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
 section{
-    text-align: center; 
+    text-align: right; 
     color: #0475ba; 
     padding: 40px;
 }
@@ -16,7 +21,7 @@ nav{
     height: 70px;
     display: flex;
     text-align: center; 
-    color: #0475ba;
+    color: white;
     
 }
 
@@ -37,7 +42,8 @@ div{
 }
 
 .secondary-block{
-    color:rgb(4, 117, 186);
+    color:rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186) ;
 }
 
 nav h2{
@@ -70,6 +76,46 @@ header img{
 }
 
 img{
-    width: 100px;
     height: 100px;
+    width: 100px;
 }
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    margin: 0px 0px 10px 0px;
+}
+
+aside{
+    float: right;
+}
+
+#formation ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#formation li{
+    margin-bottom: 10px;
+}
+
+#formation aside{
+    float: right;
+}
+
+footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.links{
+    margin-bottom: 25px;
+    width: 390px;
+    display: inline-block;
+}
+
+
+

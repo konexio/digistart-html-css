@@ -8,11 +8,11 @@ nav{
 }
 
 .secondary-block{
-    background-color:rgb(255, 255, 255);
-    color :rgb(4, 47, 186);
+    background-color:rgb(4, 117, 186);
+    color :rgb(255, 255, 255);
 }
 a{
-    color:red;
+    color: rgb(255, 255, 255);
 }
 nav h2{
     padding: 20px 0px 20px 15px;
@@ -46,3 +46,31 @@ header {
     border-radius: 75px;
     box-shadow: 3px 3px 6px rgb(170, 170, 170);
   }
+  section {
+      padding: 40px;
+  }
+#xp ul{
+    list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#xp li{
+    margin-bottom:10px ;
+
+}
+#xp aside{
+    float:right ;
+}
+footer{
+    padding: 40px;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.links{
+    margin: 0px 0px 25px 0;
+    width: 390px;
+    display: inline-block;
+}

@@ -13,8 +13,9 @@ nav {
   color: white;
 }
 
-a {
+nav a {
   color: rgb(255,255,255);
+  background-color: rgb(4, 117, 186);
 }
 
 nav h2 {
@@ -31,4 +32,24 @@ nav ul {
     margin: 0;
     padding: 24px;
     list-style: none;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h2 {
+  color: rgb(4, 117, 186);
+}
+
+header img {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
 }
