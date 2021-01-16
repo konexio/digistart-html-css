@@ -6,3 +6,37 @@ div {
 p {
     color: red;
 }
+
+img {
+    border-color: black;
+    border-style: solid;
+}
+
+.contenu-mixte {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#section-1 {
+    color: blue;
+}
+
+#section-2 {
+    color: orange;
+}
+
+#section-3 {
+    color:purple;
+}
+
+.contenu-mixte p {
+    text-align: right;
+}
+
+#section-3 div p {
+    text-align: justify;
+    color:black;
+    background-color:white;
+}
+
