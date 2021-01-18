@@ -17,15 +17,24 @@ font-family: Arial;
 font-size: 18px;
 }
 
-# section-1{
+#section-1{
 color:blue;
 }
-# section-2{
+#section-2{
     color:orange;
 
 }
-# section-3 {
+#section-3 {
     color: purple
+}
+.contenu-mixte p {
+    text-align: right;
+}
+#section-3 p {
+    text-align: justify;
+    color: black;
+    background-color: white;
+
 }
 
 
