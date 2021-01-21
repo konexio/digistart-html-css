@@ -1,0 +1,36 @@
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+div {
+    background-color: grey;
+}
+
+p {
+    color: red;
+}
+
+.contenu-mixte {
+    text-align: ;
+    font-family: arial;
+}
+
+.contenu-text {
+    font-size: 18px;
+}
+
+#section-1 {
+    color: blue;
+}
+
+#section-2 {
+    color: orange;
+}
+
+#section-3 {
+    color: purple;
+}
