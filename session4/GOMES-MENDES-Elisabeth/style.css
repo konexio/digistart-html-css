@@ -1,22 +1,33 @@
-
-
+/*
+Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
+*/
+body{
+  margin: 0px;
+}
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
-
+section{
+  padding:30px;
+}
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
-
+h3{
+  text-align: center;
+}
 
 /*
 Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
 */
-
+nav h2{
+  padding: 0px;
+  margin: 20px;
+}
 
 
 /* 
@@ -25,7 +36,11 @@
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
-
+nav ul {
+  padding: 20px;
+  margin: 0px;
+  list-style: none;
+}
 
 
 /*
@@ -36,7 +51,9 @@ en ligne malgrés leur affichage de type `block`.
 Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
 aux éléments <nav>` et `<ul>` dans la page html.
 */
-
+nav, ul {
+  display: flex;
+}
 
 
 /*
@@ -44,13 +61,18 @@ aux éléments <nav>` et `<ul>` dans la page html.
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 */
-
+nav li{
+padding: 20px;
+margin-left:15px;
+}
 
 
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
-
+nav h2{
+padding: 15px;
+}
 
 
 /*
@@ -59,19 +81,27 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
 */
-
+a{
+  color:rgb(0, 0, 0); 
+}
 
 
 /*
 Écrire une règle pour que les images aient une largeur égale à `300` pixels.
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
 */
-
+img {
+  width: 300px;
+  border-radius: 10px; 
+}
 
 
 /*
 Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
 */
+#ville, #espace {
+  background-color: rgb(4, 117, 186); 
+}
 
 
 /*             BONUS !!                   */

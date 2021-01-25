@@ -1,4 +1,41 @@
+/*
+Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0`
+*/
+body{
+  
+margin: 0px; 
+}
 
+/*
+Écrire une
+ règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
+*/
+
+
+section{
+padding: 30px
+}
+  
+
+
+/*
+Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
+*/
+
+h3 {
+text-align: center ;
+}
+
+
+/*
+Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
+  - Des marges intérieures égales à `0` pixel.
+  - Des marges extérieures égales à `20` pixels.
+*/
+nav h2
+{padding: 0px;
+margin: 20PX;
+}
 
 
 
@@ -8,7 +45,11 @@
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
-
+nav ul
+{padding: 20x;
+margin: 0px;
+list-style: none; 
+}
 
 
 /*
@@ -19,6 +60,9 @@ en ligne malgrés leur affichage de type `block`.
 Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
 aux éléments <nav>` et `<ul>` dans la page html.
 */
+
+
+
 
 
 
@@ -73,6 +117,5 @@ Une façon de centrer les images est de les afficher en block:
 Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
 Rechercher l'attribut "text-decoration"
 */
-
 
 
