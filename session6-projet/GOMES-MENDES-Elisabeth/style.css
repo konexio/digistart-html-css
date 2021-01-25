@@ -1,0 +1,36 @@
+
+/*general style*/
+body{
+    font-family: Arial;
+    margin:0px;
+}
+/*navigation*/
+nav{
+    display: flex;
+    height: 70px;
+}
+
+.secondary-block{
+    color: white;
+    background-color: rgb(4, 117, 186);
+}
+
+a{
+  color: rgb(255, 255, 255)
+}
+
+nav h2{
+   margin: 0px; 
+   padding: 20px 0px 20px 15px;
+}
+
+nav ul{
+  display: flex;
+  margin: 0px;
+  padding: 24px;
+  list-style: none;
+}
+
+nav li{
+    margin-left: 15px;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    margin: 0px;
+}
+
+nav{
+    height:70px;
+    display: flex;
+}
+
+.secondary-block{
+    color: white;
+    background-color: rgb(4, 117, 186);
+}
+
+a{
+    color: white;
+}
+nav h2{
+    margin: 0px;
+    padding: 20px 0px 20px 15px;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 24px;
+    list-style: none;
+}
+nav li{
+    margin-left: 15px;
+}

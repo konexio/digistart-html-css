@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+}
+
+.secondary-block{
+    color: white;
+    background-color: rgb(4, 117, 186);
+} 
+
+a {
+    color: white;
+}
+
+
+nav h2 {
+    margin: 0px;
+    padding: 20px 0px 20px 15px;
+}
+/* Tout est bien dans le css pour l'instant aussi, 
+il faut continuer avec les autres étapes 
+alors dans ma bage il ma donne sulement ma nom 
+Je  viens de corriger quelque chose, 
+il y avait un espace en trop entre rgb et (4, etc ...)
+Mtn c'est bon  oui c'es bon  merci baeucoup:)*/
+
+
+nav ul {
+display: flex;
+padding: 0px;
+margin: 24;
+list-style: none;}
+
+nav li{
+    padding-left: 15px;
+}
+
