@@ -23,12 +23,6 @@ nav h2 {
     margin: 0px;
     padding: 20px 0px 20px 15px;
 }
-/* Tout est bien dans le css pour l'instant aussi, 
-il faut continuer avec les autres étapes 
-alors dans ma bage il ma donne sulement ma nom 
-Je  viens de corriger quelque chose, 
-il y avait un espace en trop entre rgb et (4, etc ...)
-Mtn c'est bon  oui c'es bon  merci baeucoup:)*/
 
 
 nav ul {
@@ -40,4 +34,22 @@ list-style: none;}
 nav li{
     padding-left: 15px;
 }
-
+header{
+text-align: center;
+    padding: 40px;
+}
+.content{
+max-width: 800px;
+margin: 0 auto;
+}
+header h2 {
+    color: rgb(4, 117, 186);
+}
+header img { 
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb( 170, 170, 170);
+}
+section{
+    padding: 40px;
+}
