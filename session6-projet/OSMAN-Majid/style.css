@@ -53,3 +53,42 @@ header img {
 section{
     padding: 40px;
 }
+#xp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #xp li {
+    margin-bottom: 10px;
+  }
+  
+  #xp aside {
+    float: right;
+  }
+  #education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #education li {
+    margin-bottom: 10px;
+  }
+  
+  #education aside {
+    float: right;
+  }
+footer{
+    padding: 40px;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.links {
+margin-bottom: 25px;
+display: inline-block;
+width: 390px;
+}

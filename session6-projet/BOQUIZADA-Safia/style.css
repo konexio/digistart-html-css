@@ -8,7 +8,8 @@ nav{
 }
 .secondary-block{
     color: white;
-    background-color: rgb(115, 115, 223);
+    background-color: rgb(71, 15, 228);
+    padding: 10px;
 }
 a{
     color: white;
@@ -53,23 +54,16 @@ list-style: none;
     margin: 10px;
 }
 #xp aside{
-    float: right;;
+    float:right;
 }
-#education {
-    padding:10px;
-    margin:0px;    
+#education ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
 }
 #education li{
     margin-bottom:10px;
-    
 }
-aside{
-    float: right;
-}
-li{
-list-style: none;
-}
-
 #education aside{
     float:right;
 }

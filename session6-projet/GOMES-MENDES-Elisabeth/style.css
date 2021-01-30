@@ -1,7 +1,7 @@
 
 /*general style*/
 body{
-    font-family: Arial;
+    font-family: Tangerine;
     margin:0px;
 }
 /*navigation*/
@@ -11,8 +11,8 @@ nav{
 }
 
 .secondary-block{
-    color: white;
-    background-color: rgb(4, 117, 186);
+    color: aqua;
+    background-color:purple;
 }
 
 a{
@@ -63,6 +63,8 @@ section{
     padding: 0px;
     margin: 0px;
     list-style: none;
+    color: blue;
+    background-color: palegreen;
 }
 
 #xp li{
@@ -86,3 +88,21 @@ section{
 #education aside{
   float: right;
 }
+
+footer {
+    padding: 40px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .links {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 390px;
+  }
+
+
