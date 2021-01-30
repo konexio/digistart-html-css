@@ -1,3 +1,154 @@
-Body {
-    font-family: arial;
+/*Author:   Faiza Berrichi;
+    Date:     23/01/2021;
+    Version:  01.01;
+
+/*-------------------------------------------------------------*/
+/* GLOBAL */
+/*-------------------------------------------------------------*/
+body{
+    font-family:Tahoma;
+    margin: 0;
 }
+
+nav{
+    height: 70px;
+    display:flex;
+  
+}
+
+.secondary-block{
+    color :#464950;
+    background-color:#ffc2bd;
+}
+
+
+a{
+    color:#464950;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+nav h2{
+    margin:0
+    padding:20 0 20 15
+}
+
+nav ul{
+    display:flex;
+    margin:25PX;
+    padding:24;
+    list-style:none;
+    margin-left: 20%;
+    
+}
+
+nav li{
+    margin-left: 40px;
+    
+    
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+}
+
+.content{
+    max-width:800px;
+    margin:auto;
+   color: #464950;
+}
+
+.ai{
+    background-color: #eeedef;
+}
+
+.ph{
+    color:#464950 ;
+}
+
+header h2{
+    color:#ffc2bd ;
+}
+
+header img{
+    width: 150px;
+    border-radius: 75px;
+    box-shadow:3px 3px 6px rgb(170, 170, 170) ;
+}
+
+section{
+    padding: 40px;
+}
+
+#xp ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+#xp li{
+    margin-bottom: 10px;
+}
+
+#education aside{
+    float: right;
+   
+}
+  
+.content2 li{
+    list-style:none;
+}
+
+.content2 aside{
+    float:right;
+}
+
+footer{
+    padding:40px;
+}
+
+footer ul {
+    padding:0px;
+    margin:0px;
+   list-style: none;
+}
+
+.links{
+    margin-bottom:25px;
+    width:390px;
+    display: inline-block;
+}
+
+#education ul{
+    padding:0px;
+    margin:0px;
+}
+
+#education li{
+    margin-bottom:10px;
+}
+
+/* j'ai rajouté ces commandes ils ne figuraient pas dans le fichier css d'origine */
+
+ .espace{
+    margin-top:60px;
+ }
+
+.resize{
+    width: 1cm;
+    color: #4d4d4d;
+}
+
+.resize1{
+    width:4mm;
+}
+
+.centre{
+    text-align:center;
+}
+
