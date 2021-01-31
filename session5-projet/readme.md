@@ -4,6 +4,8 @@
 
 **Il faut suivre les instructions telles quelles. Une fois le CV fini, vous pourrez changer le CV avec votre texte et votre photo.**
 
+**Si vous suivez ce cours en ligne et que ce fichier vous est partagé avec Live Share, vous ne verrez pas les images des énoncés. Vous pouvez accéder à ce fichier sur Github avec les images ici : [Voir sur Github](https://github.com/konexio/digistart-html-css/tree/master/session5-projet)**
+
 ## Liens vers les étapes
 
   - [Étape 1 - Structure HTML de base](#%c3%89tape-1---structure-html-de-base)
