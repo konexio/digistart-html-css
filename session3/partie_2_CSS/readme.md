@@ -69,17 +69,3 @@ Dans le fichier `style.css` :
 ### Résultat attendu pour l'exercice 4
 
 ![Résultat de l'exercice 4](./resultats/resultat4.png)
-
-## Exercice 5 : Les sélecteurs descendants
-
-**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
-
-Dans le fichier `style.css` :
-
-- Écrire une règle pour aligner à droite les éléments `<p>` enfants des éléments ayant une classe `contenu-mixte` grâce à la propriété `text-align`.
-- Écrire une règle pour justifier le texte des éléments `<p>` enfants de l'élément ayant l'ID `section-3`, toujours avec la propriété `text-align`.
-- Écrire deux autres règles pour les mêmes éléments (`<p>` enfants de l'ID `section-3`) pour que leur texte soit écrit en noir et qu'ils aient une couleur de fond en blanc.
-
-### Résultat attendu pour l'exercice 5
-
-![Résultat de l'exercice 5](./resultats/resultat5.png)

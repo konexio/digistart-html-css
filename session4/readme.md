@@ -38,12 +38,6 @@
 
 ### Partie 4
 
-Dans cette partie, nous allons changer le titre `<h2>` et la liste `<ul>` en "conteneurs flexible" pour que leurs enfants soit affichés 
-en ligne malgrés leur affichage de type `block`.
-(pour en savoir plus sur les flexbox, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox#Le_conteneur_flexible)).
-
-- Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe 
-aux éléments `<nav>` et `<ul>` dans la page html.
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
@@ -62,18 +56,3 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 ### Partie 6
 
 - Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
-
-### Bonus 1
-
-**Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
-
-- Écrire les règles nécessaires pour aligner au centre les paragraphes et les images. Une façon de centrer les images est de les afficher en block: <br>
-	display: block;<br>
-	margin-left: auto;<br>
-	margin-right: auto;<br>
-
-### Bonus 2
-
-**Exercice supplémentaire à faire uniquement si vous avez fini les exercices précédents. N'hésitez pas à faire des recherches sur Internet pour vous aider à trouver la solution.**
-
-- Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus. Rechercher l'attribut "text-decoration".
