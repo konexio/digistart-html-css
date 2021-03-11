@@ -1,58 +1,71 @@
-# Session 4 : Ajouter des styles à une page HTML
+# Session 3 : Introduction au CSS
 
 ## Cours
 
-[Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1kXFwCMCO097xIDYoTavrTepULkNBk_SBf0L19qyRJ8Y/edit?usp=sharing)
+[Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1dg38FJXCl1ziTAqSmZfFF7qrLgn93YQkcbgoRoBHC80/edit?usp=sharing)
 
 ## Documentation
 
 [Cliquer ici pour consulter la documentation CSS sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference#Index_des_mots-cl%C3%A9s)
 
-## Résultat attendu pour l'exercice
+## Exercice 1 : Ajouter du CSS au HTML
 
-![Résultat final](./resultats/resultat-final.png)
+- Créer un nouveau fichier nommé `style.css` dans le dossier `session3`.
+- Dans l'élément `<head>` du fichier `index.html`, insérer une balise permettant de lier ce document HTML au nouveau fichier `style.css`.
 
-## Exercice
+Ajoutez le code ci-dessous dans `style.css` pour vérifier que tout fonctionne bien. Le texte de la page deviendra rouge après le rechargement du navigateur web.
 
-**Rappel : Vérifiez régulièrement l'état de la page dans votre navigateur après chaque modification de code.**
+**Effacez ce code avant de passer à la suite.**
 
-### Partie 1
+```css
+* {
+  color: red;
+}
+```
 
-- Dans l'élément `<head>` de `index.html`, ajouter la balise permettant de relier le fichier CSS "style.css" au document HTML.
+### Résultat attendu pour l'exercice 1
 
-### Partie 2
+**Rappel : Effacez ce code CSS avant de passer à la suite.**
 
-- Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
-- Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
+![Résultat de l'exercice 1](./resultats/resultat1.png)
 
-### Partie 3
+## Exercice 2 : Les sélecteurs de type
 
-- Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
-- Écrire les règles suivantes pour l'élément `<h2>` à l'intérieur du `<nav>` :
-  - Des marges intérieures égales à `0` pixel.
-  - Des marges extérieures égales à `20` pixels.
-- Écrire les règles suivantes pour les éléments `<ul>` à l'intérieur du `<nav>` :
-  - Des marges intérieures égales à `20` pixels.
-  - Des marges extérieures égales à `0` pixel.
-  - Enlever les puces sur chaque ligne avec la propriété `list-style`.
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
 
-### Partie 4
+Dans le fichier `style.css` :
 
-- Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
-  - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
-  - Écrire une règle pour ajouter une marge intérieure de `20` pixels
-- Écrire une règle pour que l'élément `<h2>` enfant de `<nav>` aient une marge intérieure de 15px.
+- Écrire une règle pour appliquer un fond gris (valeur `grey`) pour tous les éléments `<div>` grâce à la propriété `background-color`.
+- Écrire une règle pour changer la couleur des éléments `<p>` en rouge (valeur `red`).
+- Écrire une règle pour ajouter une bordure noire de 4 pixels aux éléments `<img>` grâce à la propriété CSS `border`.
 
-Pour en savoir plus sur la définition de couleurs en CSS, [cliquez ici](https://developer.mozilla.org/fr/docs/Web/CSS/Type_color#Les_couleurs_RGB). 
-Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changements dans le navigateur. Remettez la couleur en noir avant de passer à la suite.
+### Résultat attendu pour l'exercice 2
 
-- Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
+![Résultat de l'exercice 2](./resultats/resultat2.png)
 
-### Partie 5
+## Exercice 3 : Les sélecteurs de classe
 
-- Écrire une règle pour que les images aient une largeur égale à `300` pixels.
-- Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
 
-### Partie 6
+Dans le fichier `style.css` :
 
-- Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
+- Écrire une règle pour centrer les éléments ayant la classe `contenu-mixte` (attribut HTML `class="contenu-mixte"`) avec la propriété `text-align`.
+- Écrire une règle pour utiliser la police de caractères `Arial` (avec la propriété `font-family`) sur les éléments ayant la classe `contenu-texte`, puis une autre pour y appliquer une taille d'écriture de 18 pixels (avec la propriété `font-size`).
+
+### Résultat attendu pour l'exercice 3
+
+![Résultat de l'exercice 3](./resultats/resultat3.png)
+
+## Exercice 4 : Les sélecteurs d'ID
+
+**Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**
+
+Dans le fichier `style.css` :
+
+- Écrire une règle pour appliquer la couleur bleue (valeur `blue`) à l'élément ayant l'ID `section-1`.
+- Écrire une règle pour appliquer la couleur orange (valeur `orange`) à l'élément ayant l'ID `section-2`.
+- Écrire une règle pour appliquer la couleur violet (valeur `purple`) à l'élément ayant l'ID `section-3`.
+
+### Résultat attendu pour l'exercice 4
+
+![Résultat de l'exercice 4](./resultats/resultat4.png)

@@ -8,7 +8,7 @@
 
 - `index.html`
 
-## Instructions
+## Exercice 1
 
 - Ouvrir le fichier `index.html`
 - Repérer les instructions de l'exercice dans les commentaires `<!-- TODO: [...] -->`
@@ -35,6 +35,15 @@ Ensuite
 <!-- TODO: Modifier l'élément p ci-dessus pour souligner le mot World -->
 ```
 
-## Résultat attendu
+### Résultat attendu
 
 ![Résultat de l'exercice](./resultat.png)
+
+
+
+## Exercice 2
+- Continuez cette exercice sur le même fichier `index.html`
+- Cette exercice a pour but de vous familiariser avec la notion de balises block et inline et la notion de parent/enfant.
+
+
+![Résultat de l'exercice](./resultat2.png)
