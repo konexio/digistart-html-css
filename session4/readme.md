@@ -2,7 +2,7 @@
 
 ## Cours
 
-[Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1kXFwCMCO097xIDYoTavrTepULkNBk_SBf0L19qyRJ8Y/edit?usp=sharing)
+[Cliquer ici pour consulter le cours](https://docs.google.com/presentation/d/1U7hmxebBXF3DkJXfit3UqnfocIko1gHpNl71y2rof7o/edit?usp=sharing)
 
 ## Documentation
 
