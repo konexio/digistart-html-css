@@ -1,0 +1,17 @@
+img {
+    border-radius: 50% / 50%;
+    box-shadow: 50px 5px 5px black;
+}
+
+#section-2 p {
+    color: red;
+}
+
+.contenu-mixte {
+    text-align: center;
+}
+
+.contenu-texte {
+    font-family: Arial;
+    font-size: 18px;
+}
