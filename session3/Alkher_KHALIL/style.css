@@ -1,4 +1,4 @@
-/*
+
 div {
     background-color: grey;
 
@@ -7,16 +7,27 @@ p {
     color: red;
 }
 img {
-    border: 4px dotted ;
+    border: 4px solid black;
 }
-*/
+
 .contenu-texte {
     color: blue;
 }
 #section1 {
         color: purple;
-    }
-    .contenu-texte {
-        text-align: center;
+}
+.contenu-texte {
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
 
-    }
+ }
+ #section1 {
+    color: blue;
+}
+ #section2 {
+     color: blue;
+}
+#section3 {
+    color: blue;
+ }

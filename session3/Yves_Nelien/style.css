@@ -8,29 +8,27 @@ h1 {
     text-decoration: underline;
 }
 
-/*
-div { 
 
-    background-color: grey
 
-}
+/* exercice 3 
 */
 
 .contenu-mixte {
       text-align: center;
 }
 
+
 .contenu-texte {
-    font-family: arial; 
+    font-family: Arial;
     font-size: 18px; 
 } 
     
 
-div p {
-    color:green
-}
 
 
-img {
-     border: 4px 
+/* exercice 4 
+*/
+
+#section-1 {
+     color: blue;
 }
