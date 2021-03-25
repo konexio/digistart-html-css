@@ -1,0 +1,22 @@
+/*
+div {
+    background-color: grey;
+
+}
+p {
+    color: red;
+}
+img {
+    border: 4px dotted ;
+}
+*/
+.contenu-texte {
+    color: blue;
+}
+#section1 {
+        color: purple;
+    }
+    .contenu-texte {
+        text-align: center;
+
+    }

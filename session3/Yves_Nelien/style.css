@@ -1,0 +1,36 @@
+p { 
+    color:red ;
+}
+
+h1 { 
+    color: blue; 
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+/*
+div { 
+
+    background-color: grey
+
+}
+*/
+
+.contenu-mixte {
+      text-align: center;
+}
+
+.contenu-texte {
+    font-family: arial; 
+    font-size: 18px; 
+} 
+    
+
+div p {
+    color:green
+}
+
+
+img {
+     border: 4px 
+}
