@@ -1,0 +1,23 @@
+heightbody {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h2{
+    style: bold;
+}
+
+nav {
+    display: flex; 
+    height: 70px
+}
+
+.secondary-block {
+    color: white;
+    background-color: rgb(4,117,186);
+}
+
+a {
+    color: white; 
+}
+

@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  nav {
+      display: flex;
+      height:70px; 
+    }
+    secondary-block {
+        color:rgb(4,117,186);
+        background-color:rgb(4,117,186)
+        
+
+    

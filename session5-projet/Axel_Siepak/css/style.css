@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+
+nav {
+    height: 70px;
+    display : flex;
+}
+
+.secondary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186);
+}
+
+nav h2 {
+    margin: 0px;
+    padding; 20px 0 20px 15px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 24px;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+header {
+    text-align: center;
+    margin: 40px;
+}
+
+content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header img {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+
